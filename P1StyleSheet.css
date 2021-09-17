@@ -1,0 +1,30 @@
+button
+{
+    border:0;
+    padding: 10px;
+    margin:15px;
+    background-color: black;
+    color:white;
+    font-size:2em;
+    cursor:pointer;
+}
+/* body */
+/* {background-color: black;} */
+nav
+{
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+}
+#searchBar
+{
+    margin: 30px;
+    border-color: 1px black solid;
+    padding: 4px;
+}
+#signIn
+{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
