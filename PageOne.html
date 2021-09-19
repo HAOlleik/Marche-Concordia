@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="P1StyleSheet.css">
+    <!-- <link rel="stylesheet" href="P1StyleSheet.css"> -->
 </head>
 
 <body>
@@ -15,31 +15,102 @@
         <a href="/SignIn">Sign In</a>
         <br>
         <div><input type="search" name="Search" placeholder="Search" id="searchBar">
-            <label for="pickUp">Service Type</label>
-            <a href="/PickUp">Pick Up</a>
-            <a href="/Delivery">Delivery</a>
-            <a href="/YourCart">Cart</a>
+            <ul>
+                <li>
+                    <label for="pickUp">Service Type</label>
+                    <ul>
+                        <li>
+                            <a href="/PickUp">Pick Up</a>
+                        </li>
+                        <li>
+                            <a href="/Delivery">Delivery</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/YourCart">Cart</a>
+                </li>
+            </ul>
         </div>
     </nav>
 
     <div>
-        <input type="button" value="All Products" id="allProducts">
-        <select name="aisle" id="aisles">
-            <option value="">--Please Select an Option--</option>
-            <option value="Fruits">Fruits</option>
-            <option value="Vegetables">Vegetables</option>
-            <option value="Diaries">Diaries</option>
-            <optgroup label="Meats">
-                <option value="Chicken">Chicken</option>
-                <option value="Cow">Cow</option>
-                <option value="Fish">Fish</option>
-            </optgroup>
-            <option value="Bread">Bread</option>
-        </select>
-        <input type="button" name="Deals" id="deals" value="Deals">
+        <ul>
+            <li>
+                <a href="/AllProducts">All Products</a>
+            </li>
+            <li>
+                <select name="aisle" id="aisles">
+                    <option value="">--Please Select an Option--</option>
+                    <option value="Fruits">Fruits</option>
+                    <option value="Vegetables">Vegetables</option>
+                    <option value="Diaries">Diaries</option>
+                    <optgroup label="Meats">
+                        <option value="Chicken">Chicken</option>
+                        <option value="Cow">Cow</option>
+                        <option value="Fish">Fish</option>
+                    </optgroup>
+                    <option value="Bread">Bread</option>
+                </select>
+            </li>
+            <li>
+                <a href="/Deals">Deals</a>
+            </li>
+        </ul>
     </div>
 
+    <section>
+        <h2>Frequenlty Asked Questions</h2>
+    </section>
+    <div>
+        <h4>Can I pay online for my groceries?</h4>
+        <p>No. This website is built for our respected customers to prepare the list of items they need from our store
+            based on what we have in stock.
+        </p>
+    </div>
+    <div>
+        <h4>Where is the location of the store?</h4>
+        <p>In Concordia University hall building room H-535.</p>
+    </div>
+    <a href="/PostNewQuestions">Ask Us!</a>
 
+    <footer>
+        <div class=MainFooter>
+            <ul>
+                <li>Marche Concordia</li>
+                <li>
+                    <ul>
+                        <li>Sign Up For NewsLetter To receive Newest Deals On Your Email!</li>
+                        <li>
+                            <input type="email" name="NewsLetterSignUp" placeholder="Email Address"
+                                id="NewsLetterSignUp">
+                        </li>
+                    </ul>
+                </li>
+                <li class="SocialMediaLinks">
+                    <div>
+                        <a href="/facebook">
+                            <img src="" alt="">
+                        </a>
+                        <a href="/instagram">
+                            <img src="" alt="">
+                        </a>
+                        <a href="/twitter">
+                            <img src="" alt="">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="/Contact">Contact Us</a>
+                </li>
+                <li>
+                    <a href="/Jobs">Jobs</a>
+                </li>
+            </ul>
+
+        </div>
+
+    </footer>
 </body>
 
 </html>
