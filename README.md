@@ -16,6 +16,7 @@ The customer can choose items and add them to the cart.
 ## Team Members
 * Hussein Olleik ([HAOlleik](https://github.com/HAOlleik "Github user's profile"))
 * Ayeshah Rehman
+<!-- TODO: Update ReadMe File with team members' names and github links -->
 
 ## Technologies
 TBD
