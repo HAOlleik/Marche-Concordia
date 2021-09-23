@@ -20,4 +20,12 @@ The customer can choose items and add them to the cart.
 <!-- TODO: Update ReadMe File with team members' names and github links -->
 
 ## Technologies
-TBD
+
+### Front-End
+* HTML
+* CSS (Bootstrap)
+* JavaScript
+
+### Back-End
+* PHP
+* MongoDB
