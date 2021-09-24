@@ -1,30 +1,10 @@
-/* button
+.nav
 {
-    border:0;
-    padding: 10px;
-    margin:15px;
-    background-color: black;
-    color:white;
-    font-size:2em;
-    cursor:pointer;
-}
-body
-{background-color: black;}
-nav
-{
-    background-color: grey;
     display: flex;
     justify-content: space-between;
 }
-#searchBar
+#nav-search
 {
-    margin: 30px;
-    border-color: 1px black solid;
-    padding: 4px;
+    flex:500px;
+    padding-right: 600px;
 }
-#signIn
-{
-    display:flex;
-    flex-direction: row;
-    align-self: flex-end;
-} */
