@@ -6,5 +6,10 @@
 #nav-search
 {
     flex:500px;
-    padding-right: 600px;
+    padding-right: 50em;
 }
+/* 
+#navSearchBar
+{
+    width: 25em;
+} */
