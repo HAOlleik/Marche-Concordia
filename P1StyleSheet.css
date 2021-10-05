@@ -3,11 +3,6 @@
     display: flex;
     justify-content: space-between;
 }
-/* #nav-search
-{
-    flex:5;
-    padding-right: 50em;
-} */
 
 #logo
 {
@@ -30,17 +25,22 @@ footer
     text-decoration: none;
 }
 
-#SocialMedia
-{
-    font-size: 3em;
-    color:grey;
-}
-
-#AislesLink
+#CategoriesLink
 {
     background-color: white;
     color:#0d6efd;
     border: 1px #0d6efd solid;
+    padding: 7px;
+}
+
+#carousCaption1
+{
+    color: white;
+}
+
+#carousCaption
+{
+    color:black;
 }
 
 .btnCont
@@ -52,7 +52,7 @@ footer
 
 .menuBut
 {
-    background-color: white;
+    background-color: #353535;
 }
 
 #newsletter
