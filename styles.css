@@ -1,0 +1,98 @@
+/* 
+Information about CSS style: font-family: helvetica
+
+Color Pallete for website:
+background-color: #D9D9D9 (grey) or #FFFFFF (white)
+Header color: #284B63 (indigo dye)
+Add to Cart button: #3C6E71
+Add to Wish List: #353535
+*/
+
+body {
+    background-color: #D9D9D9;
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    color: black;
+}
+.company{
+    font-family: Helvetica, sans-serif;
+    font-size: small;
+    padding: 0px;
+    margin: 0px 0px 2px 20px;
+
+}
+.product{
+    font-family: Helvetica, sans-serif;
+    font-size:large;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px 0px 20px 20px;
+}
+.price{
+    font-family: Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;  
+}
+.container .container-sm .container-md .container-lg .container-xl .container-xxl{
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+} 
+.container-fluid {
+  background-color: #D9D9D9;
+  margin-top: 15px;
+}
+.row{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    }
+.no-gutter > [class*='col-'] {
+    padding-left: 0px;
+    padding-right: 0px
+    }
+
+.col-sm-3{
+     /* padding left and right doesnt work here */
+    padding-top: 300px;
+    padding-bottom: 300px;
+   
+}
+.col-sm-9{
+    /* padding, margin cant be changed here */
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.col{
+    background-color: #FFFFFF;
+    border-radius:25px;
+    padding-top: 35px;
+    padding-bottom: 7px;
+    margin: 20px; /* created space between the colums */
+    font-size: 15px;
+    text-align: left;
+}
+/* code for button in css*/ 
+a.btn{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    padding: 15px 50px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.primary{
+    background-color: #3C6E71;
+    color: white;
+    font-weight: 550;
+}
+.secondary{
+    background-color: #848586;
+    color: white;
+    font-weight: 550;
+}
+
+
