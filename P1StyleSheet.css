@@ -10,12 +10,7 @@
     font-size: 2em;
 }
 
-#pageTop
-{
-    background-color: #284B63;
-}
-
-footer
+#pageTop, footer
 {
     background-color: #284B63;
 }
@@ -43,13 +38,6 @@ footer
     color:black;
 }
 
-.btnCont
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .menuBut
 {
     background-color: #353535;
@@ -59,9 +47,3 @@ footer
 {
     color:white;
 }
-
-/* 
-#navSearchBar
-{
-    width: 25em;
-} */
