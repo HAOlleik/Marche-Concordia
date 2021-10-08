@@ -1,0 +1,49 @@
+h3 {
+    display: block;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+    font-size: small;
+}
+
+.head {
+    height: 50px;
+    width: 100%;
+    background-color:  #3c6e71;
+}
+
+.container {
+    height: 520px;
+    width: 100%;
+    font-family: "Helvetica", sans-serif;
+}
+
+.container input, label, textarea, button, h2, p { 
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+.container input[type=text]{
+
+    border: none;
+    border-bottom: 2px solid #000 ;
+}
+
+#buttons {
+    margin-top: 25px;
+}
+
+#buttons button {
+    margin-top: 15px;
+    padding: 5px 15px;
+}
+
+
+.foot{
+    height: 60px;
+    width: 100%;
+    background-color: #284B63;
+    font-family: "Helvetica", sans-serif;
+    }
