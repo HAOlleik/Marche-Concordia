@@ -19,7 +19,7 @@ p {
 .company{
     font-family: Helvetica, sans-serif;
     font-size: small;
-    padding: 0px;
+    padding: 9px 0px 0px 0px;
     margin: 0px 0px 2px 20px;
 
 }
@@ -34,6 +34,14 @@ p {
     font-family: Helvetica, sans-serif;
     padding: 0px;
     margin: 0px 0px 0px 20px;  
+}
+.deal-price{
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    color: red;
+    padding: 0px;
+    margin: 0px 0px 0px 20px;
+    
 }
 .container .container-sm .container-md .container-lg .container-xl .container-xxl{
     margin-left: 40px;
