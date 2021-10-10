@@ -1,0 +1,105 @@
+body
+{
+   
+	font-family: 'Roboto', sans-serif;
+}
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+#nav-search
+{
+    flex:500px;
+    padding-right: 50em;
+}
+
+
+.form-group { 
+    margin-top: 0 auto;
+    font-style:black ;           
+    padding:10px white;
+    width:500px;
+    height:375px;
+    background-color: rgb(255, 255, 255);
+    margin:0 auto; 
+    box-shadow: 5px 10px 35px #3C6E71;
+        
+}
+.form-input{
+    text-align: center;  
+}
+.buttons{
+    text-align: center; 
+    font-size: 20px;   
+}
+h2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+th,td{
+    text-align: left;
+    border: 1px solid rgb(156, 154, 154);
+    padding: 5px;
+}
+a.btn{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    padding: 15px 80px;
+    border-radius: 7px;
+    margin: 0 5px;
+}
+.primary{
+    background-color: #3C6E71;
+    color: #fdfdfd;
+    font-weight: 550;
+}
+.secondary{
+    background-color: #848586;
+    color: #f8f8f8;
+    font-weight: 550;
+}
+input {
+    outline: none;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#pageTop, footer
+{
+    background-color: #284B63;
+}
+
+#socialMedia
+{
+    text-decoration: none;
+}
+#newsletter
+{
+    color:white;
+}
+.pagetop{
+    height: 25px;
+}
+.updatesandtos{
+    text-align: center;
+}
+.body-middle{
+    height: 425px;
+    justify-content: center;
+}
+

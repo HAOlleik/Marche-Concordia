@@ -1,0 +1,81 @@
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#pageTop, footer
+{
+    background-color: #284B63;
+}
+
+#socialMedia
+{
+    text-decoration: none;
+}
+
+#newsletter
+{
+    color:white;
+}
+
+.searchbar{
+    float: left;
+
+}
+a.btn{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    padding: 15px 80px;
+    border-radius: 7px;
+    margin: 0 5px;
+}
+.primary{
+    background-color: #3C6E71;
+    color: #fdfdfd;
+    font-weight: 550;
+}
+.secondary{
+    background-color: #848586;
+    color: #f8f8f8;
+    font-weight: 550;
+}
+input {
+    display: block;
+    margin: auto;
+    border: none;
+    border-bottom: 2px solid black;
+}
+td,th{
+    text-align: center;
+}
+.cellbtn{
+    width: 130px;
+}
+
+form {
+    float: right;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+}
+
+#addbtn {
+    margin-left: 5px;
+}
+
+#delete {
+    float: left;
+}
+
+#edit {
+    float: right;
+}
+
