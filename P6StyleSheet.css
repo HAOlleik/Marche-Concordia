@@ -19,7 +19,8 @@ body
     margin-top: 0 auto;
     font-style:black ;           
     padding:10px white;
-    width:500px;
+    width:100%; 
+    max-width: 425px;
     height:375px;
     background-color: rgb(255, 255, 255);
     margin:0 auto; 
@@ -33,7 +34,7 @@ body
     text-align: center; 
     font-size: 20px;   
 }
-h2{
+h1{
     text-align: center;
     margin-top: 15px;
 }
@@ -99,7 +100,11 @@ input {
     text-align: center;
 }
 .body-middle{
+    margin-top: 10%;
     height: 425px;
-    justify-content: center;
+    width:100%;
+    padding: 3px;
+    }
+.footer-outer{
+    margin-top: 10%;
 }
-
