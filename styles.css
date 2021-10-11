@@ -327,3 +327,13 @@ a.btn{
   {
       text-decoration: none;
   }
+
+  #carousCaption1
+{
+    color: white;
+}
+
+#carousCaption
+{
+    color:black;
+}
