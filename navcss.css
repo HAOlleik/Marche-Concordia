@@ -226,6 +226,10 @@ a:hover {
   margin-left:10px;
   border-radius: 50%;
 }
+#socialMedia
+{
+    text-decoration: none;
+}
 /* .navigation {
     display: flex;
     flex-flow: row wrap;
