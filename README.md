@@ -1,13 +1,13 @@
 # Marche-Concordia
 www.marcheconcordia.com
-Soen-287-Project
+<br>Soen-287-Project
 
 ## Objective
 Design a store website.
 
 ## Project
 The website is designed for consumers to check the prices and be able to buy online.
-The customer can choose items and add them to the cart.
+<br>The customer can choose items and add them to the cart.
 
 ## Core Features
 * Check Item Availability
