@@ -1,6 +1,6 @@
+<!--Charles Eimer 26747310 Edit product page   -->
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="styles.css">
     <title>Edit Product</title>
 </head>
-
 <body>
-
+    <!-- Navigation -->
     <ul class="nav_back">
           <li><a href="/index.html">Home</a></li>
           <li><a href="/final_b.html">Product List</a></li>
@@ -18,16 +17,16 @@
           <li><a href="pagenine.html">User List</a></li>
           <li><a href="/index.html">Sign out</a></li>
     </ul>
-
+    <!-- Outter container for Edit product form -->
     <section class="outer_edit">
+        <!--Inner container for Edit product form  -->
         <form id="inner_edit" action="/sign_in">
             <h1>Edit Product</h1>
             <p> Enter new product name, price and image</p>
             <hr>
-            <input id="input" type="text" size="30" name="product" placeholder=" New Product" required>
+            <input id="input" type="text" size="30" name="product" placeholder=" New Product Name" required>
             <input id="input" type="text" size="30" name="price" placeholder=" New Price" required>
             <input id="image" type="file" name="image">
-
             <div>
                 <button id="save">Save</button>
             </div>
