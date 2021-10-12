@@ -171,8 +171,7 @@ a.btn {
     display: flex;
     justify-content: center;
     height: 380px;
-    font-family:"Helvetica", sans-serif;
-    background-color: #fff;}
+    font-family:"Helvetica", sans-serif;}
 
 #inner_edit  {
     padding: 20px 20px ;
@@ -211,6 +210,10 @@ a.btn {
     background-color: #3c6e71;
     border-radius: 10%;
     color: #fff;}
+
+#save a {
+  text-decoration: none;
+  color: #fff}
 
 /*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
 
