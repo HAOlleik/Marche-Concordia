@@ -222,7 +222,7 @@ a.btn {
 }
 
 /* nav  */
-.nav_main {
+.nav_back {
     display: flex;
     flex-flow: row wrap;
      justify-content:flex-start; 
@@ -232,7 +232,7 @@ a.btn {
   
   }
   
-  .nav_main a {
+  .nav_back a {
     font-family: "Helvetica", sans-serif;
     text-decoration: none;
     display: block;
@@ -240,7 +240,7 @@ a.btn {
     color: white;
   }
   
-  .nav_main a:hover{
+  .nav_back a:hover{
     color: #3c6e71;}
  
   @media all and (max-width: 800px) {
