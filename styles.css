@@ -168,16 +168,16 @@ a.btn {
 /*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
 /* nav  */
 
-}
 .outer_edit {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 310px;
+    height: 280px;
     font-family:"Helvetica", sans-serif;}
 
 #inner_edit  {
-    height: 260px;
+    padding-top: 40px;
+    height: 240px;
     width: 300px;}
 
 #inner_edit hr {
@@ -219,7 +219,55 @@ a.btn {
 
 #save a {
   text-decoration: none;
-  color: #fff}
+  color: #fff
+
+}
+
+/* nav  */
+.nav_back {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  list-style: none;
+  margin: 0; 
+  background:  black;}
+
+.nav_back a {
+  font-family: "Helvetica", sans-serif;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;}
+
+.nav_back a:hover {
+    text-decoration:  #3c6e71;
+    color: #3c6e71;}
+
+
+@media all and (max-width: 800px) {
+  .nav_back {
+    justify-content: space-around;
+  }
+}
+
+@media all and (max-width: 600px) {
+  .nav_back {
+    flex-flow: column wrap;
+    padding: 0;
+  }
+  .nav_back a { 
+    text-align: center; 
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255,0.3); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+  }
+  .nav_back li:last-of-type a {
+    border-bottom: none;
+  }
+
+}
+  /*  nav*/
+
 /*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
 
 
