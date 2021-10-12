@@ -168,6 +168,21 @@ a.btn {
 /*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
 /* nav  */
 
+.outer_edit1 {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 280px;
+   font-family:"Helvetica", sans-serif;}
+
+
+#signup_ {
+     display: block;
+     margin: 15px auto;
+     padding: 10px 10px;
+     background-color: #3c6e71;
+     border-radius: 10%;}
+
 .outer_edit {
     display: flex;
     justify-content: center;
