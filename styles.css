@@ -194,6 +194,8 @@ a.btn {
     text-align: center;}
 
 #inner_create {
+  margin:0;
+  padding:0;
   background-color:#fff;
 }
 
