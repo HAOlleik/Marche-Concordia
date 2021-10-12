@@ -193,9 +193,8 @@ a.btn {
     font-size:  20px;
     text-align: center;}
 
-#image{
-
-  margin-left: 105px;
+#inner_create {
+  background-color:#fff;
 }
 
 #inner_edit p {
