@@ -451,12 +451,13 @@ a.btn {
     margin-left:10px;
     border-radius: 50%;
   }
-  #socialMedia
+  
+}
+#socialMedia
   {
       text-decoration: none;
       color: white;
   }
-}
 .navigation a {
   text-align: center;
   padding: 0px;
