@@ -1,50 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="page_8.css" />
-    <title>Edit User</title>
-  </head>
 
-  <body>
-    <ul class="nav_main">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Product List</a></li>
-      <li><a href="#">User List</a></li>
-      <li><a href="#">Sign out</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Edit User</title>
+</head>
+
+<body>
+
+    <ul class="nav_back">
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/final_b.html">Product List</a></li>
+          <li><a href="/p11.html">Order List</a></li>
+          <li><a href="pagenine.html">User List</a></li>
+          <li><a href="/index.html">Sign out</a></li>
     </ul>
 
     <section class="outer_edit">
-      <form id="inner_edit" action="/sign_in">
-        <h1>Edit User</h1>
-        <p>Enter new user name and password</p>
-        <hr />
-        <input
-          id="input"
-          size="30"
-          type="text"
-          name="password"
-          placeholder=" New Username"
-          required
-        />
-        <input
-          id="input"
-          size="30"
-          type="text"
-          name="name"
-          placeholder=" New Password"
-          required
-        />
-        <div>
-          <button id="save">Save</button>
-        </div>
-      </form>
+        <form id="inner_edit" action="/sign_in">
+            <h1>Edit User</h1>
+            <p> Enter new user name and password</p>
+            <hr>
+            <input id="input" size="30" type="text" name="Name" placeholder="First name" required>
+            <input id="input" size="30" type="text" name="last_name" placeholder="Last name" required>
+            <input id="input" size="30" type="text" name="Adress" placeholder="Adress" required>
+            <input id="input" size="30" type="password" name="password" placeholder=" New Password" required>
+            <div>
+                <button id="save">Save</button>
+            </div>
     </section>
-
-    <footer class="foot">
-      <h2>&copy Marche Concordia</h2>
-    </footer>
-  </body>
+    </form>
+</body>
 </html>

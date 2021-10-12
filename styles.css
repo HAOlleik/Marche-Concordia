@@ -172,11 +172,11 @@ a.btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 300px;
-    font-family:"Helvetica", sans-serif;}
+    height: 400px;
+    font-family:"Helvetica", sans-serif;
+}
 
 #inner_edit  {
-    height: 240px;
     width: 300px;}
 
 #inner_edit hr {
@@ -193,9 +193,8 @@ a.btn {
     text-align: center;}
 
 #image{
-
-  margin-left: 105px;
-}
+  margin-bottom:10px; 
+  margin-left: 105px;}
 
 #inner_edit p {
     text-align: center;
@@ -242,6 +241,14 @@ a.btn {
     text-decoration:  #3c6e71;
     color: #3c6e71;}
 
+.footed {
+    height: 63px;
+    width: 100%;
+    background-color: #284B63;
+    font-family: "Helvetica", sans-serif;
+    margin-top: 20px;
+    vertical-align: bottom;
+}
 
 @media all and (max-width: 800px) {
   .nav_back {
