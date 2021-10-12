@@ -26,66 +26,21 @@
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="css/P12/P12.css" />
 
+    <link rel="stylesheet" href="nav_2.css" />
+    <link rel="stylesheet" href="css/P12/P12.css" />
     <title>Order Profile</title>
   </head>
 
   <body>
-    <header>
-      <div class="container">
-        <div class="nav-logo">
-          <a href="/index.html"
-            ><img
-              src="images/logo.jpg"
-              class="nav-logo-img"
-              alt="Store Logo"
-              height="120"
-              width="120"
-          /></a>
-        </div>
-        <br /><br />
-        <a class="store-name" href="/index.html">
-          MARCHÉ
-          <br />
-          CONCORDIA
-        </a>
-
-        <nav class="navigation">
-          <ul>
-            <li>
-              <a
-                href="https://www.google.com/maps/place/Pavillion+Henry+F.Hall+Bldg,+Boulevard+de+Maisonneuve+O,+Montreal,+QC+H3G+1M8/@45.4973223,-73.5812175,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a6a8799deb5:0x1ca01f129dc2ef02!8m2!3d45.4973223!4d-73.5790288"
-                class="location"
-                ><img
-                  src="images/location.jpg"
-                  class="location-img"
-                  height="55"
-                  width="55"
-              /></a>
-            </li>
-            <li>
-              <a href="/signIn.html" class="sign-in"
-                ><img
-                  src="images/sign-in.png"
-                  class="sign-in-img"
-                  height="55"
-                  width="55"
-              /></a>
-            </li>
-            <li>
-              <a href="yourCart.html" class="cart"
-                ><img
-                  src="images/cart.png"
-                  class="cart-img"
-                  height="55"
-                  width="55"
-              /></a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+    <header id="edithead">
+      <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="final_b.html">Product List</a></li>
+        <li><a href="PageNine.html">User List</a></li>
+        <li><a href="p11.html">Order List</a></li>
+        <li><a href="index.html">Sign Out</a></li>
+      </ul>
     </header>
 
     <h1 id="renderOrderNum">Order #</h1>
@@ -93,16 +48,6 @@
     <br />
 
     <div>
-      <form class="d-flex">
-        <input
-          id="navSearchBar"
-          class="form-control me-2"
-          type="search"
-          placeholder="Search Products"
-          aria-label="Search"
-        />
-        <button class="btn secondary" type="submit">Search</button>
-      </form>
       <div>
         <button type="button" class="btn primary savebtn">Save</button>
       </div>
@@ -130,7 +75,7 @@
         <tbody>
           <tr>
             <td class="tg-c3ow">
-              <p id="cname"></p>
+              <p id="cname">Customer Name Here</p>
             </td>
             <td class="tg-c3ow">
               <input
@@ -138,10 +83,10 @@
                 id="datefield"
                 name="trip-start"
                 class="date"
-              />
+              />Enter/Edit Date
             </td>
             <td class="tg-c3ow">
-              <p id="total"></p>
+              <p id="total">$25.5</p>
             </td>
             <td>
               <select id="fulfilled">
@@ -315,7 +260,7 @@
       <br />
     </div>
 
-    <footer class="footer-class">
+    <!---<footer class="footer-class">
       <div class="container-footer">
         <div
           align-h="right"
@@ -361,6 +306,7 @@
         <a href="/Jobs">Jobs</a>
       </div>
     </footer>
+  -->
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
