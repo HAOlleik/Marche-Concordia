@@ -87,10 +87,6 @@ table {
   background-color: #284b63;
   font-family: "Helvetica", sans-serif;
 }
-h3 {
-  display: block;
-  text-align: center;
-  color: #fff;
-  padding-top: 20px;
-  font-size: small;
+.h1andp{
+  margin-left: 2%;
 }
