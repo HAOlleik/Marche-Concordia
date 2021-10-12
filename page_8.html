@@ -1,53 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="p8p10p5_styles.css" />
-    <title>Edit Product</title>
-  </head>
 
-  <body>
-    <ul class="nav_main">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Products</a></li>
-      <li><a href="#">Orders</a></li>
-      <li><a href="#">Users</a></li>
-      <li><a href="#">Sign out</a></li>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="p8p10p5_styles.css">
+    <title>Edit Product</title>
+</head>
+
+<body>
+
+    <ul class="nav_back">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">Orders</a></li>
+        <li><a href="#">Users</a></li>
+        <li><a href="#">Sign out</a></li>
     </ul>
 
     <section class="outer_edit">
-      <form id="inner_edit" action="/sign_in">
-        <h1>Edit Product</h1>
-        <p>Enter new product name, price and image</p>
-        <hr />
-        <input
-          id="input"
-          type="text"
-          size="30"
-          name="password"
-          placeholder=" New Product"
-          required
-        />
-        <input
-          id="input"
-          type="text"
-          size="30"
-          name="name"
-          placeholder=" New Price"
-          required
-        />
-        <input id="image" type="file" name="image" />
+        <form id="inner_edit" action="/sign_in">
+            <h1>Edit Product</h1>
+            <p> Enter new product name, price and image</p>
+            <hr>
+            <input id="input" type="text" size="30" name="product" placeholder=" New Product" required>
+            <input id="input" type="text" size="30" name="price" placeholder=" New Price" required>
+            <input id="image" type="file" name="image">
 
-        <div>
-          <button id="save">Save</button>
-        </div>
-      </form>
+            <div>
+                <button id="save">Save</button>
+            </div>
+        </form>
     </section>
 
-    <footer class="foot">
-      <h2>&copy Marche Concordia</h2>
-    </footer>
-  </body>
+
+</body>
+
 </html>
