@@ -14,25 +14,284 @@ body
     padding-right: 50em;
 }
 
+
 .form-group { 
+    margin-top: 0 auto;
     font-style:black ;           
-    padding:10px;
-    width:500px;
-    height:425px;
+    padding:10px white;
+    width:100%; 
+    max-width: 425px;
+    height:375px;
     background-color: rgb(255, 255, 255);
-    margin:0 auto;
-    margin-top: 10px;
+    margin:0 auto; 
+    box-shadow: 5px 10px 35px #3C6E71;
+        
 }
 .form-input{
-margin-left: 40px;
-    margin-top: 30px;
+    text-align: center;  
 }
 .buttons{
     text-align: center; 
     font-size: 20px;   
 }
-h2{
+h1{
     text-align: center;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
+th,td{
+    text-align: left;
+    border: 1px solid rgb(156, 154, 154);
+    padding: 5px;
+}
+a.btn{
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    padding: 15px 80px;
+    border-radius: 7px;
+    margin: 0 5px;
+}
+.primary{
+    background-color: #3C6E71;
+    color: #fdfdfd;
+    font-weight: 550;
+}
+.secondary{
+    background-color: #848586;
+    color: #f8f8f8;
+    font-weight: 550;
+}
+input {
+    outline: none;
+    margin: auto 0;
+    border: none;
+    border-bottom: 2px solid black;
+}
+hr {
+  width: 100%;
+  border: 2px solid #063d41;
+  margin: auto 0;
+}
+
+.nav
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo
+{
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#pageTop, footer
+{
+    background-color: #284B63;
+}
+
+#socialMedia
+{
+    text-decoration: none;
+}
+#newsletter
+{
+    color:white;
+}
+.pagetop{
+    height: 25px;
+}
+.updatesandtos{
+    text-align: center;
+}
+.body-middle{
+ margin-top: 10%;
+ height: 425px;
+ width:100%;
+ padding: 3px;
+}
+.footer-outer{
+    margin-top: 10%;
+}
+
+
+body{
+    margin: 0;
+    font-family:"Helvetica", sans-serif;
+  }
+  
+header{
+    background: #006d77;
+    display: flex;
+    /* #2a9d8f; */
+}
+  header::after {
+    content: " ";
+    display: table;
+    clear: both;
+  
+}
+.container{
+    display: inline-flexbox;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+@media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+}
+  
+@media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    }
+    .navigation a { 
+      text-align: center; 
+      padding: 0px;
+    }
+  
+  .nav-logo-img{
+    display: inline-flex;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40%;
+  }
+  .store-name {
+    display: inline-flex;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: left;
+    font-size: x-large;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .navigation{
+    float: right;
+    margin-bottom: 0px;
+  }
+  
+  .navigation ul{
+    list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding: 0;  
+  }
+  .navigation li{
+    text-decoration: none;
+    display: inline-block;
+    margin-left:35px;
+  }
+  .location{
+    border-radius: 50%;
+  }
+  .location-img{
+    margin-bottom: 10px;
+    border-radius: 55%;
+  }
+  
+  .sign-in-img{
+    margin-bottom: 10px;
+    border-radius: 55%;
+  }
+  .cart-img{
+    margin-bottom: 10px;
+    border-radius: 55%;
+  }
+  a:hover {
+    color: black;
+  }
+  /* ssss */
+  .navigation-other{
+    float: inline-start;
+    margin: 10px;
+  }
+  .navigation-other ul{
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+    margin:0;
+    padding: 0;  
+  }
+  .navigation-other li{
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    margin-left:85px;
+    margin-right: 85px;
+  }
+  .container-other{
+    display: inline-block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .secondary-header{
+    background-color:#686963;
+  }
+  .secondary-header::after {
+    content: " ";
+    display: table;
+    clear: both;
+  
+  }
+  .home-page{
+    font-family:"Helvetica", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  .categories{
+    font-family:"Helvetica", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  .deals{
+    font-family:"Helvetica", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  .locations{
+    font-family:"Helvetica", sans-serif;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .dropbtn {
+    font-family:"Helvetica", sans-serif;
+    font-weight: bold;
+    background-color: #686963;
+    color: white;
+    font-size: inherit;
+    border: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 230px;
+  }
+  .dropdown-content a {
+    color: white;
+    padding: 10px 10px;
+    text-align: left;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #006d77;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #5C5C5C;
+  }
