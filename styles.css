@@ -162,171 +162,94 @@ a.btn {
   margin-bottom: 0px;
 }
 
-.navigation ul {
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-.navigation li {
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 35px;
-}
-.location {
-  border-radius: 50%;
-}
-.location-img {
-  margin-bottom: 10px;
-  border-radius: 55%;
+
+
+
+/*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
+
+.outer_edit {
+    display: flex;
+    justify-content: center;
+    height: 530px;
+    font-family:"Helvetica", sans-serif;
 }
 
-.sign-in-img {
-  margin-bottom: 10px;
-  border-radius: 55%;
-}
-.cart-img {
-  margin-bottom: 10px;
-  border-radius: 55%;
-}
-a:hover {
-  color: black;
-}
-/* ssss */
-.navigation-other {
-  float: inline-start;
-  margin: 10px;
-}
-.navigation-other ul {
-  font-weight: bold;
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-.navigation-other li {
-  text-decoration: none;
-  display: inline-block;
-  text-align: left;
-  margin-left: 85px;
-  margin-right: 85px;
-}
-.container-other {
-  display: inline-block;
-  width: 95%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.secondary-header {
-  background-color: #686963;
-}
-.secondary-header::after {
-  content: " ";
-  display: table;
-  clear: both;
-}
-.home-page {
-  font-family: "Helvetica", sans-serif;
-  text-decoration: none;
-  color: white;
-}
-.categories {
-  font-family: "Helvetica", sans-serif;
-  text-decoration: none;
-  color: white;
-}
-.deals {
-  font-family: "Helvetica", sans-serif;
-  text-decoration: none;
-  color: white;
-}
-.locations {
-  font-family: "Helvetica", sans-serif;
-  text-decoration: none;
-  color: white;
+
+.foot , h2{
+    display: flex;
+    justify-content: center;
+    height: 74px;
+    width: 100%;
+    background-color: #3c6e71;
+    font-family: "Helvetica", sans-serif;
+    font-size: small;
 }
 
-.dropbtn {
-  font-family: "Helvetica", sans-serif;
-  font-weight: bold;
-  background-color: #686963;
-  color: white;
-  font-size: inherit;
-  border: none;
-  padding-left: 0;
-  padding-right: 0;
+#inner_edit  {
+    padding: 65px 65px;
+    height: 400px;
+    width: 400px;}
+
+
+#inner_edit hr {
+    border: 1px solid #3c6e71;}
+
+#input {
+    display: block;
+    margin: 30px auto;
+    border: none;
+    border-bottom: 2px solid black;}
+
+#image {
+    padding-left: 155px;
+    display: block;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  width: 230px;
-}
-.dropdown-content a {
-  color: white;
-  padding: 10px 10px;
-  text-align: left;
-  text-decoration: none;
-  display: block;
+#inner_edit h1{
+    text-align: center;}
+
+#inner_edit p {
+    text-align: center;
+    font-size: small;
 }
 
-.dropdown-content a:hover {
-  background-color: #006d77;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-  background-color: #5c5c5c;
-}
-
-.footer-class {
-  background-color: #006d77;
-  padding: 11px;
-  /* margin-bottom: 55px; */
-}
-.container-footer {
-  width: 95%;
-  margin-left: 0;
-  margin-right: 0;
-}
-.container-footer .footer-info ul {
-  list-style: none;
-  text-decoration: none;
-  margin: 0;
-  padding: 0;
-}
-.container-footer .footer-info li {
-  text-decoration: none;
-  display: inline-block;
-  margin-left: 0px;
-}
-.contact-footer {
-  margin-left: 0px;
-  border-radius: 50%;
-}
-.phone-footer {
-  margin-left: 10px;
-  border-radius: 50%;
-}
-.facebook-footer {
-  margin-left: 10px;
-  border-radius: 50%;
-}
-.instagram-footer {
-  margin-left: 10px;
-  border-radius: 50%;
-}
-.twitter-footer {
-  margin-left: 10px;
-  border-radius: 50%;
-}
-#socialMedia {
-  text-decoration: none;
+#forgot {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #3c6e71;
+    font-size: small;
 }
 
-#carousCaption1 {
-  color: white;
-}
+#save {
+    display: block;
+    margin: 15px  auto;
+    padding: 15px 30px;
+    background-color: #3c6e71;
+    border-radius: 10%;
+    color: #fff;}
 
-#carousCaption {
-  color: black;
+.nav_main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content:flex-start;
+    list-style: none;
+    margin: 0; 
+    background:  #353535;}
+
+
+
+.nav_main a {
+    font-family: "Helvetica", sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+
+.nav_main a:hover{
+    color: #3c6e71;}
+
+#forgot:hover {
+    text-decoration: 1px #353535 underline;
 }

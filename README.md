@@ -17,6 +17,7 @@ The customer can choose items and add them to the cart.
 * Hussein Olleik 40090081 ([HAOlleik](https://github.com/HAOlleik "Github user's profile"))
 * Ayeshah Rehman ([ayeshahrh](https://github.com/ayeshahrh "Github user's profile"))
 * Huzaifah Mirza  ([PixelEmpyre](https://github.com/PixelEmpyre "Github user's profile"))
+* Charles Eimer 26747310 ([eimcharles](https://github.com/eimcharles "Github user's profile")) 
 <!-- TODO: Update ReadMe File with team members' names and github links -->
 
 ## Technologies
