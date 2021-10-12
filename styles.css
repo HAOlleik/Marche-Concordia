@@ -222,23 +222,26 @@ a.btn {
 }
 
 /* nav  */
-.nav_back {
+.nav_main {
     display: flex;
     flex-flow: row wrap;
-    justify-content:flex-start; 
+     justify-content:flex-start; 
     list-style: none;
-    background:  #353535;}
+    margin: 0; 
+    background:  #353535;
   
-.nav_back a {
+  }
+  
+  .nav_main a {
     font-family: "Helvetica", sans-serif;
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: white;}
+    color: white;
+  }
   
-.nav_back a:hover{
+  .nav_main a:hover{
     color: #3c6e71;}
-  
  
   @media all and (max-width: 800px) {
   .nav_back {
