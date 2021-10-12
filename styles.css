@@ -171,12 +171,11 @@ a.btn {
     display: flex;
     justify-content: center;
     height: 280px;
-    padding: 50px 50px ;
     font-family:"Helvetica", sans-serif;
     background-color: #fff;}
 
 #inner_edit  {
-    padding: 30px 30px ;
+    padding: 20px 20px ;
     height: 240px;
     width: 300px;}
 
