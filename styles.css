@@ -227,7 +227,8 @@ a.btn {
     justify-content:flex-start;
     list-style: none;
     margin: 0; 
-    background:  black;
+    background:  #353535;
+    paddin:3px;
   }
 
 
