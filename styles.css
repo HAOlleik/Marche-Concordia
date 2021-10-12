@@ -166,12 +166,15 @@ a.btn {
 
 
 /*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
+body { 
+    margin:0 ;}
 
 .outer_edit {
     display: flex;
     justify-content: center;
     height: 381px;
     font-family:"Helvetica", sans-serif;
+
 }
 
 
@@ -186,7 +189,6 @@ a.btn {
 }
 
 #inner_edit  {
-    padding: 65px 65px;
     height: 400px;
     width: 400px;}
 
@@ -229,6 +231,8 @@ a.btn {
     border-radius: 10%;
     color: #fff;}
 
+
+
 .nav_main {
     display: flex;
     flex-flow: row wrap;
@@ -252,6 +256,11 @@ a.btn {
 
 #forgot:hover {
     text-decoration: 1px #353535 underline;
+}
+
+
+
+
 }
 /* 
 Information about CSS style: font-family: helvetica
