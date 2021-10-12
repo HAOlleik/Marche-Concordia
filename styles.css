@@ -284,6 +284,7 @@ a.btn{
   .footer-class{
     background-color: #006d77;
     padding: 11px;
+    color:white;
     /* margin-bottom: 55px; */
   }
   .container-footer{
@@ -326,6 +327,7 @@ a.btn{
   #socialMedia
   {
       text-decoration: none;
+      color: white;
   }
 
   #carousCaption1
