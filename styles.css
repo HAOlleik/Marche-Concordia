@@ -243,6 +243,14 @@ a.btn {
     text-decoration:  #3c6e71;
     color: #3c6e71;}
 
+.footed {
+    height: 63px;
+    width: 100%;
+    background-color: #284B63;
+    font-family: "Helvetica", sans-serif;
+    margin-top: 20px;
+    vertical-align: bottom;
+}
 
 @media all and (max-width: 800px) {
   .nav_back {
