@@ -172,7 +172,8 @@ a.btn {
     justify-content: center;
     align-items: center;
     height: 300px;
-    font-family:"Helvetica", sans-serif;}
+    font-family:"Helvetica", sans-serif;
+}
 
 #inner_edit1  {
     width: 300px;}
@@ -195,6 +196,10 @@ a.btn {
     margin: 20px auto;
     border: none;
     border-bottom: 2px solid black;}
+
+#inner_edit1 h1{
+    font-size:  20px;
+    text-align: center;}
 
 #inner_edit h1{
     font-size:  20px;
