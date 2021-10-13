@@ -166,15 +166,23 @@ a.btn {
 
 
 /*Sign in page CSS for page 5, page 8, page 10 Charles 26747310 */
-/* nav  */
+
+.outer_edit1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    font-family:"Helvetica", sans-serif;}
+
+#inner_edit1  {
+    width: 300px;}
 
 .outer_edit {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 400px;
-    font-family:"Helvetica", sans-serif;
-}
+    font-family:"Helvetica", sans-serif;}
 
 #inner_edit  {
     width: 300px;}
@@ -217,9 +225,7 @@ a.btn {
 
 #save a {
   text-decoration: none;
-  color: #fff
-
-}
+  color: #fff}
 
 .nav_back {
     display: flex;
@@ -227,28 +233,25 @@ a.btn {
     justify-content:flex-start;
     list-style: none;
     margin: 0; 
-    background:  #353535;
-  }
+    background:#353535;}
 
-
-  .nav_back a {
+.nav_back a {
     font-family: "Helvetica", sans-serif;
     text-decoration: none;
     display: block;
     padding: 1em;
-    color: white;
-  }
+    color: white;}
   
-  .nav_back a:hover {
+.nav_back a:hover {
       color:  #3c6e71; }
   
-  @media all and (max-width: 800px) {
+@media all and (max-width: 800px) {
     .nav_back {
       justify-content: space-around;
     }
   }
-  
-  @media all and (max-width: 600px) {
+
+@media all and (max-width: 600px) {
     .nav_back {
       flex-flow: column wrap;
       padding: 0;
