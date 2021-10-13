@@ -662,3 +662,10 @@ a:hover {
   color: black;
 }
 
+/* deals page */
+.deals-text{
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
