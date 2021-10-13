@@ -19,7 +19,7 @@ body {
   height: 400px;
   background-color: rgb(255, 255, 255);
   margin: 0 auto;
-  box-shadow: 5px 10px 35px #3c6e71;
+/*   box-shadow: 5px 10px 35px #3c6e71; */
 }
 .form-input {
   text-align: center;
