@@ -283,48 +283,55 @@ a:hover {
   display: block;
   background-color: #5c5c5c;
 }
- .footer-class{
-    background-color: #006d77;
-    padding: 11px;
-    color:white;
-    /* margin-bottom: 55px; */
-  }
-  .container-footer{
-    width: 95%;
-    margin-left: 0;
-    margin-right: 0;
-  }
-  .container-footer .footer-info ul{
-    list-style: none;
-    text-decoration: none;
-    margin:0;
-    padding: 0;  
-  }
-  .container-footer .footer-info li{
-    text-decoration: none;
-    display: inline-block;
-    margin-left:0px;
-  }
-  .contact-footer{
-    margin-left:0px;
-    border-radius: 50%;
-    
-  }
-  .phone-footer{
-    margin-left:10px;
-    border-radius: 50%;
-  }
-  .facebook-footer{
-    margin-left:10px;
-    border-radius: 50%;
-  }
-  .instagram-footer{
-    margin-left:10px;
-    border-radius: 50%;
-  }
-  .twitter-footer{
-    margin-left:10px;
-    border-radius: 50%;
-  }
-  
+.footer-class {
+  background-color: #006d77;
+  padding: 11px;
+  /* margin-bottom: 55px; */
+}
+.container-footer {
+  width: 95%;
+  margin-left: 0;
+  margin-right: 0;
+}
+.container-footer .footer-info ul {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+.container-footer .footer-info li {
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 0px;
+}
+.contact-footer {
+  margin-left: 0px;
+  border-radius: 50%;
+}
+.phone-footer {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.facebook-footer {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.instagram-footer {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.twitter-footer {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+#socialMedia {
+  text-decoration: none;
+}
+
+#carousCaption1 {
+  color: white;
+}
+
+#carousCaption {
+  color: black;
 }
