@@ -171,11 +171,12 @@ a.btn {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 280px;
+    height: 310px;
     font-family:"Helvetica", sans-serif;}
 
 #inner_edit1  {
-    width: 300px;}
+    width: 300px;
+    margin: 0;}
 
 .outer_edit {
     display: flex;
@@ -222,7 +223,8 @@ a.btn {
 
 #save {
     display: block;
-    margin: 5px auto;
+    margin: 0px auto;
+    margin-bottom: 40px;
     padding: 10px 10px;
     background-color: #3c6e71;
     border-radius: 10%;}
