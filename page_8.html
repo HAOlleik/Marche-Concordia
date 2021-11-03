@@ -1,37 +1,42 @@
 <!--Charles Eimer 26747310 Edit product page   -->
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="p8p10p5_styles.css">
     <title>Edit Product</title>
 </head>
+
 <body>
-    <!-- Navigation -->
-    <ul class="nav_back">
-          <li><a href="/index.html">Home</a></li>
-          <li><a href="/final_b.html">Product List</a></li>
-          <li><a href="/p11.html">Order List</a></li>
-          <li><a href="pagenine.html">User List</a></li>
-          <li><a href="/index.html">Sign out</a></li>
-    </ul>
-    <!-- Outter container for Edit product form -->
+    <!-- Navigation for the Backpages Charles 26747310  -->
+    <div class="nav_back">
+        <a href="/index.html">Home</a>
+        <a href="/final_b.html">Product List</a>
+        <a href="/p11.html">Order List</a>
+        <a href="pagenine.html">User List</a>
+        <a href="/index.html">Sign out</a>
+    </div>
     <section class="outer_edit">
-        <!--Inner container for Edit product form  -->
+        <!--Inner container for the edit  -->
         <form id="inner_edit" action="/sign_in">
             <h1>Edit Product</h1>
-            <p> Enter new product name, price and image</p>
+            <p>Please fill each given field to edit a user.</p>
             <hr>
-            <input id="input" type="text" size="30" name="product" placeholder=" New Product Name" required>
-            <input id="input" type="text" size="30" name="price" placeholder=" New Price" required>
-            <input id="input" type="text" size="30" name="price" placeholder=" Quantity" required>
-            <input id="image" type="file" name="image">
+            <input id="input" size="30" type="text" name="name" placeholder="Product name" required>
+            <input id="input" size="30" type="text" name="last_name" placeholder="Price" required>
+            <input id="input" size="30" type="text" name="email" placeholder="Quantity" required>
+            <div id="img">
+                <input id="image" type="file" name="image">
+            </div>
             <div>
                 <button id="save">Save</button>
             </div>
-        </form>
     </section>
+    </form>
 </body>
+
 </html>
