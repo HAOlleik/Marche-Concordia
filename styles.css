@@ -191,6 +191,12 @@ a.btn {
 #inner_edit hr {
     border: 1px solid #3c6e71;}
 
+#img_in{
+  display: flex;
+  justify-content: center;
+  padding-left: 50px;
+  margin: 20px auto;}
+
 #input {
     display: block;
     margin: 20px auto;
