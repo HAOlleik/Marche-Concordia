@@ -19,10 +19,10 @@ p {
 /*css for company image */
 .company-name{
     font-family: Helvetica, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
   font-weight: 300;
   color: black;
-  letter-spacing: -1px;
+ 
 
 }
 
@@ -79,45 +79,38 @@ input[type="number"] {
 
   /* for description text */
 
-/* .line-text{
-font-family: Helvetica, sans-serif;
-  font-weight: 300;
-  color: black;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-    margin-top: 20px;
-    overflow: hidden;
-    border-bottom: 2px solid #E1E8EE;
-    text-align:justify;
-
-} */
+  .line_text{
+    font-family: Helvetica, sans-serif;
+      display: none;
+      font-weight: 300;
+      color: black;
+      margin-bottom: 20px;
+      padding-bottom: 5px;
+      margin-top: 20px;
+      border-bottom: 2px solid #E1E8EE;
+      text-align:justify;
+    
+    }
 
 .button{
     /* padding: 12px 10px 15px 10px; */
     padding: 10px 5px 10px 5px;
     font-family: Helvetica, sans-serif;
+    margin-top:-10px;
+    
 }
 
 a.btn{
-   text-decoration: none;
-   padding: 15px 20px 15px 20px;
-   border-radius: 10px;
-   margin: 0px 20px 10px 0px;
-   
+  text-decoration: none;
+  padding: 15px 50px 15px 50px;
+  border-radius: 10px;
+  margin: 0px 20px 10px 0px;
+
 }
 .primary{
-   background-color: #3C6E71;
-   color: #f8f8f8;
-   font-weight: 550;
-   
-   
-   
-}
-.secondary{
-   background-color: #848586;
-   color: #f8f8f8;
-   font-weight: 550;
-  
+  background-color: #3C6E71;
+  color: #f8f8f8;
+  font-weight: 550; 
 }
 
 .product_image {
@@ -137,7 +130,7 @@ a.btn{
 
 .right-side {
     margin-top:60px;
-     
+    margin-left:20px;
 }
 
 /*ayesha css */
@@ -202,6 +195,12 @@ header::after {
   font-weight: bold;
 }
 
+a:link, a:visited,  a:hover, a:active
+{
+    color:white;
+    text-decoration: none;
+}
+
 .navigation{
   float: right;
   margin-bottom: 0px;
@@ -241,6 +240,7 @@ a:hover {
 .navigation-other{
   float: inline-start;
   margin: 10px;
+  text-align:center;
 }
 .navigation-other ul{
   font-weight: bold;
