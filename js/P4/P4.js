@@ -92,20 +92,17 @@ function updatePrices(prodId, count, addorsub) {
 }
 
 function updateSubtotal() {
-  let temp = 1
-  let tempBool = true
   let tempProds = []
   let tempPrices = []
 
-  while (tempBool) {
-    let tempEl = document.getElementById("prod".concat(temp, "price"))
-    if (tempEl) {
-      tempProds.push(tempEl)
-      tempPrices.push(parseFloat(tempEl.innerHTML.substring(1)))
-      temp = temp + 1
-    } else {
-      tempBool = false
-    }
+  polls = document.querySelectorAll("[id^=prod][id$=price]")
+  Array.prototype.forEach.call(polls, callback)
+
+  function callback(element, _) {
+    tempProds.push(document.getElementById(element.id))
+    tempPrices.push(
+      parseFloat(document.getElementById(element.id).innerHTML.substring(1))
+    )
   }
 
   let subtotal = 0
@@ -122,7 +119,10 @@ function updateShipping(subtotal) {
     subtotal * 0.1 > 2.99
       ? Math.round((subtotal * 0.1 + Number.EPSILON) * 100) / 100
       : 2.99
-  document.getElementById("shipping").innerHTML = dollar.concat(shipping)
+  document.getElementById("shipping").innerHTML =
+    document.getElementById("subtotal").innerHTML === "$0"
+      ? "$0"
+      : dollar.concat(shipping)
 
   updateTotal(subtotal, shipping)
 }
@@ -131,11 +131,17 @@ function updateTotal(subtotal, shipping) {
   // GST (5%) & QST (9.975%)
   let total =
     Math.round(((subtotal + shipping) * 1.14975 + Number.EPSILON) * 100) / 100
-  document.getElementById("total").innerHTML = dollar.concat(total)
+  document.getElementById("total").innerHTML =
+    document.getElementById("subtotal").innerHTML === "$0"
+      ? "$0"
+      : dollar.concat(total)
 
   updateTaxes(subtotal, shipping)
 
-  document.getElementById("check-amt").innerHTML = dollar.concat(total)
+  document.getElementById("check-amt").innerHTML =
+    document.getElementById("subtotal").innerHTML === "$0"
+      ? "$0"
+      : dollar.concat(total)
 }
 
 function updateTaxes(subtotal, shipping) {
@@ -145,9 +151,15 @@ function updateTaxes(subtotal, shipping) {
   let qst =
     Math.round(((subtotal + shipping) * 0.09975 + Number.EPSILON) * 100) / 100
 
-  document.getElementById("gst").innerHTML = dollar.concat(gst)
+  document.getElementById("gst").innerHTML =
+    document.getElementById("subtotal").innerHTML === "$0"
+      ? "$0"
+      : dollar.concat(gst)
   document.getElementById("gst-label").innerHTML = "GST (5%)"
 
-  document.getElementById("qst").innerHTML = dollar.concat(qst)
+  document.getElementById("qst").innerHTML =
+    document.getElementById("subtotal").innerHTML === "$0"
+      ? "$0"
+      : dollar.concat(qst)
   document.getElementById("qst-label").innerHTML = "QST (9.975%)"
 }
