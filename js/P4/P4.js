@@ -61,6 +61,10 @@ $(document).ready(function () {
       document.getElementById(prodId).remove()
     }
   })
+  $("#chk").click(function () {
+    
+    alert("Order Placed Succesfuly!")
+  })
 })
 
 function updatePrices(prodId, count, addorsub) {
