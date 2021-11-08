@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="style.css">
     <script src="main.js"></script>
 </head>
-<body>
-
+<body onload="resubmit()">
     <header>
         <div class="container">
             <div class="nav-logo">
@@ -98,7 +97,8 @@
 
                      <div class = "quantity">
                     <label for="quantity">Qty:</label>
-                 <input type="number" id="quantity" name="quantity" min="1" max="10">
+                    <input type="number" id="quantity" name="quantity" min="1" max="10" onchange="totalCost()">
+                    <p class="total" id="total" name = "quantity"></p>
                        </div>
 
                        <div class = "button">
@@ -117,5 +117,9 @@
 
             </div>
     </div>
+    <script>
+        var y = 10.00;
+        var key = "6"
+    </script>
 </body>
 </html>

@@ -76,7 +76,9 @@ input[type="number"] {
     padding-right: 0px;
     padding-left: 50px;
 }
-
+.total{
+  margin-top: 2%;
+}
   /* for description text */
 
   .line_text{
@@ -193,12 +195,6 @@ header::after {
   font-size: x-large;
   color: white;
   font-weight: bold;
-}
-
-a:link, a:visited,  a:hover, a:active
-{
-    color:white;
-    text-decoration: none;
 }
 
 .navigation{
