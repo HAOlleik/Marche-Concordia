@@ -1,148 +1,138 @@
 body {
-    font-family: Helvetica, sans-serif;
-    background-color: #D9D9D9;
+  font-family: Helvetica, sans-serif;
+  background-color: #d9d9d9;
 }
 
 p {
-    font-family: Helvetica, sans-serif;
-    color: black;
-    margin:0px;
-    padding: 0px;
-  
+  font-family: Helvetica, sans-serif;
+  color: black;
+  margin: 0px;
+  padding: 0px;
 }
 
-.container{
-    margin-top: 60px;
-    margin-bottom:60px;
+.container {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /*css for company image */
-.company-name{
-    font-family: Helvetica, sans-serif;
-    font-size: 20px;
+.company-name {
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
   font-weight: 300;
   color: black;
- 
-
 }
-
 
 /*css for product size*/
- .product-size{
+.product-size {
   font-family: Helvetica, sans-serif;
   margin-top: 20px;
-} 
-
-/*css for product price*/
-.product-price{
-    font-family: Helvetica, sans-serif;
-    margin-top: 20px;
-
 }
 
+/*css for product price*/
+.product-price {
+  font-family: Helvetica, sans-serif;
+  margin-top: 20px;
+}
 
-.deal-color{
+.deal-color {
   font-family: Helvetica, sans-serif;
   color: red;
 }
 
 /* for description button */
 
-.button0{
-    background-color: #B8B8B8;
-    color:rgb(58, 56, 56);
-    font-weight: 550;
-     font-size: medium;
-    cursor: pointer;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    padding: 10px 5px 10px 5px;
-    font-family: Helvetica, sans-serif;
-    margin-top: 20px;
+.button0 {
+  background-color: #b8b8b8;
+  color: rgb(58, 56, 56);
+  font-weight: 550;
+  font-size: medium;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  padding: 10px 5px 10px 5px;
+  font-family: Helvetica, sans-serif;
+  margin-top: 20px;
 }
-.active, .button0:hover {
-    background-color: darkgray;
-  }
+.active,
+.button0:hover {
+  background-color: darkgray;
+}
 
-  .quantity{
-    font-family: Helvetica, sans-serif;
-    margin-top:20px;
+.quantity {
+  font-family: Helvetica, sans-serif;
+  margin-top: 20px;
 }
 input[type="number"] {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 50px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 50px;
 }
-.total{
+.total {
   margin-top: 2%;
 }
-  /* for description text */
+/* for description text */
 
-  .line_text{
-    font-family: Helvetica, sans-serif;
-      display: none;
-      font-weight: 300;
-      color: black;
-      margin-bottom: 20px;
-      padding-bottom: 5px;
-      margin-top: 20px;
-      border-bottom: 2px solid #E1E8EE;
-      text-align:justify;
-    
-    }
-
-.button{
-    /* padding: 12px 10px 15px 10px; */
-    padding: 10px 5px 10px 5px;
-    font-family: Helvetica, sans-serif;
-    margin-top:-10px;
-    
+.line_text {
+  font-family: Helvetica, sans-serif;
+  display: none;
+  font-weight: 300;
+  color: black;
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  border-bottom: 2px solid #e1e8ee;
+  text-align: justify;
 }
 
-a.btn{
+.button {
+  /* padding: 12px 10px 15px 10px; */
+  padding: 10px 5px 10px 5px;
+  font-family: Helvetica, sans-serif;
+  margin-top: -10px;
+}
+
+a.btn {
   text-decoration: none;
   padding: 15px 50px 15px 50px;
   border-radius: 10px;
   margin: 0px 20px 10px 0px;
-
 }
-.primary{
-  background-color: #3C6E71;
+.primary {
+  background-color: #3c6e71;
   color: #f8f8f8;
-  font-weight: 550; 
+  font-weight: 550;
 }
 
 .product_image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-     width: 100%; 
-    overflow: hidden;
-    background-color: #FFFFFF;
-    border: 0px solid rgba(0, 0, 0, 0.8);
-    border-radius:30px;
-    margin-top:60px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #ffffff;
+  border: 0px solid rgba(0, 0, 0, 0.8);
+  border-radius: 30px;
+  margin-top: 60px;
 }
 
-
 .right-side {
-    margin-top:60px;
-    margin-left:20px;
+  margin-top: 60px;
+  margin-left: 20px;
 }
 
 /*ayesha css */
 
-body{
+body {
   margin: 0;
-  font-family:"Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
 }
 
-header{
+header {
   background: #006d77;
   display: block;
   /* #2a9d8f; */
@@ -151,15 +141,13 @@ header::after {
   content: " ";
   display: table;
   clear: both;
-
 }
-.container{
+.container {
   display: inline-flexbox;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-  margin-top:0px;
-
+  margin-top: 0px;
 }
 
 @media all and (max-width: 800px) {
@@ -173,13 +161,13 @@ header::after {
     flex-flow: column wrap;
     padding: 0;
   }
-  }
-  .navigation a { 
-    text-align: center; 
-    padding: 0px;
-  }
+}
+.navigation a {
+  text-align: center;
+  padding: 0px;
+}
 
-.nav-logo-img{
+.nav-logo-img {
   display: inline-flex;
   float: left;
   padding-top: 10px;
@@ -195,37 +183,38 @@ header::after {
   font-size: x-large;
   color: white;
   font-weight: bold;
+  text-decoration: none;
 }
 
-.navigation{
+.navigation {
   float: right;
   margin-bottom: 0px;
 }
 
-.navigation ul{
+.navigation ul {
   list-style: none;
   text-decoration: none;
-  margin:0;
-  padding: 0;  
+  margin: 0;
+  padding: 0;
 }
-.navigation li{
+.navigation li {
   text-decoration: none;
   display: inline-block;
-  margin-left:35px;
+  margin-left: 35px;
 }
-.location{
+.location {
   border-radius: 50%;
 }
-.location-img{
+.location-img {
   margin-bottom: 10px;
   border-radius: 55%;
 }
 
-.sign-in-img{
+.sign-in-img {
   margin-bottom: 10px;
   border-radius: 55%;
 }
-.cart-img{
+.cart-img {
   margin-bottom: 10px;
   border-radius: 55%;
 }
@@ -233,63 +222,62 @@ a:hover {
   color: black;
 }
 /* ssss */
-.navigation-other{
+.navigation-other {
   float: inline-start;
   margin: 10px;
-  text-align:center;
+  text-align: center;
 }
-.navigation-other ul{
+.navigation-other ul {
   font-weight: bold;
   list-style: none;
   text-decoration: none;
-  margin:0;
-  padding: 0;  
+  margin: 0;
+  padding: 0;
 }
-.navigation-other li{
+.navigation-other li {
   text-decoration: none;
   display: inline-block;
   text-align: left;
-  margin-left:85px;
+  margin-left: 85px;
   margin-right: 85px;
 }
-.container-other{
+.container-other {
   display: inline-block;
   width: 95%;
   margin-left: auto;
   margin-right: auto;
 }
-.secondary-header{
-  background-color:#686963;
+.secondary-header {
+  background-color: #686963;
 }
 .secondary-header::after {
   content: " ";
   display: table;
   clear: both;
-
 }
-.home-page{
-  font-family:"Helvetica", sans-serif;
+.home-page {
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   color: white;
 }
-.categories{
-  font-family:"Helvetica", sans-serif;
+.categories {
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   color: white;
 }
-.deals{
-  font-family:"Helvetica", sans-serif;
+.deals {
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   color: white;
 }
-.locations{
-  font-family:"Helvetica", sans-serif;
+.locations {
+  font-family: "Helvetica", sans-serif;
   text-decoration: none;
   color: white;
 }
 
 .dropbtn {
-  font-family:"Helvetica", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-weight: bold;
   background-color: #686963;
   color: white;
@@ -317,53 +305,59 @@ a:hover {
 }
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: #5C5C5C;
+  background-color: #5c5c5c;
 }
 /* footer {
-  text-align: center;
-  padding: 3px;
-  background-color: DarkSalmon;
-  color: white;
+text-align: center;
+padding: 3px;
+background-color: DarkSalmon;
+color: white;
 } */
-.footer-class{
+.footer-class {
   background-color: #006d77;
   padding: 11px;
   /* margin-bottom: 55px; */
 }
-.container-footer{
+.container-footer {
   width: 95%;
   margin-left: 0;
   margin-right: 0;
 }
-.container-footer .footer-info ul{
+.container-footer .footer-info ul {
   list-style: none;
   text-decoration: none;
-  margin:0;
-  padding: 0;  
+  margin: 0;
+  padding: 0;
 }
-.container-footer .footer-info li{
+.container-footer .footer-info li {
   text-decoration: none;
   display: inline-block;
-  margin-left:0px;
+  margin-left: 0px;
 }
-.contact-footer{
-  margin-left:0px;
-  border-radius: 50%;
-  
-}
-.phone-footer{
-  margin-left:10px;
+.contact-footer {
+  margin-left: 0px;
   border-radius: 50%;
 }
-.facebook-footer{
-  margin-left:10px;
+.phone-footer {
+  margin-left: 10px;
   border-radius: 50%;
 }
-.instagram-footer{
-  margin-left:10px;
+.facebook-footer {
+  margin-left: 10px;
   border-radius: 50%;
 }
-.twitter-footer{
-  margin-left:10px;
+.instagram-footer {
+  margin-left: 10px;
   border-radius: 50%;
+}
+.twitter-footer {
+  margin-left: 10px;
+  border-radius: 50%;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+  color: white;
+  text-decoration: none;
 }
