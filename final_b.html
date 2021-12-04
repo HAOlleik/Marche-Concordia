@@ -13,13 +13,13 @@
 
 <body>
     <div class="nav_main">
-        <a href="/index.html">Home</a>
-        <a href="/final_b.html">Product List</a>
-        <a href="/p11.html">Order List</a>
+        <a id="welcome" href="pagenine.html"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a href="index.html">Home</a>
+        <a href="final_b.html">Product List</a>
+        <a href="p11.html">Order List</a>
         <a href="pagenine.html">User List</a>
-        <a href="/logout.php">Sign out</a>
+        <a href="logout.php">Sign out</a>
     </div>
-    <h2><?php $_SESSION['username'];?></h2>
     <h2>Products</h2>
         <p>To select the item you would like to modify, click on item name or in the given checkbox</p>
 
