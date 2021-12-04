@@ -6,6 +6,6 @@ $_SESSION['username'] = null;
 $_SESSION['firstname'] = null;
 $_SESSION['lastname'] = null;
 
-// redirects user to login page
+// redirects user to sign in page
 session_destroy();
-header("Location: signin.php");
+header("Location: signIn.php");
