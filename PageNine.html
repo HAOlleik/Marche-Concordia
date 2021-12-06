@@ -12,10 +12,12 @@
     <title>Back Store Users Page</title>
 </head>
 
-<body> 
+<body>
 
     <div class="nav_back">
-        <a id="welcome" href="page9.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a id="welcome" href="page9.php">
+            <?php print "Welcome " . $_SESSION['username']; ?>
+        </a>
         <a href="index.html">Home</a>
         <a href="final_b.html">Product List</a>
         <a href="p11.html">Order List</a>
@@ -76,7 +78,7 @@
         </tbody>
     </table>
     <div class="d-flex justify-content-center">
-        <button type="button" class="btn btn-primary btn-lg">Add</button>
+        <a class="btn btn-primary btn-lg" href="page_10.html">Add</a>
     </div>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
