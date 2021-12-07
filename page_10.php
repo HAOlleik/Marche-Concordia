@@ -2,7 +2,14 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
+<?php
+error_reporting(E_ERROR|E_PARSE);
+$name=$_POST["name"];
+$lastname=$_POST["last_name"];
+$email=$_POST["email"];
+$password=$_POST["password"];
+$id=$_POST["id"];
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -42,3 +49,19 @@
 </body>
 
 </html>
+<?php
+extract($_REQUEST);
+$file=fopen("user.txt","a");
+fwrite($file,"Name: ");
+fwrite($file, $name . "\n");
+fwrite($file,"Last Name: ");
+fwrite($file, $lastname . "\n");
+fwrite($file,"email: ");
+fwrite($file, $email . "\n");
+fwrite($file,"password: ");
+fwrite($file, $password . "\n");
+fwrite($file,"id: ");
+fwrite($file, $id . "\n");
+fclose($file);
+
+?>
