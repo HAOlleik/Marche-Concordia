@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -13,12 +14,12 @@
 
 <body>
     <div class="nav_main">
-        <a id="welcome" href="page9.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
-        <a href="index.html">Home</a>
-        <a href="final_b.html">Product List</a>
-        <a href="p11.html">Order List</a>
-        <a href="pagenine.html">User List</a>
-        <a href="index.html">Sign out</a>
+        <a id="welcome" href="final_b.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a href="index.php">Home</a>
+        <a href="final_b.php">Product List</a>
+        <a href="p11.php">Order List</a>
+        <a href="pageNine.php">User List</a>
+        <a href="index.php">Sign out</a>
     </div>
 <div class="h1andp">
   <h1>Order List</h1>
