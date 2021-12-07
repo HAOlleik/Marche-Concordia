@@ -38,7 +38,7 @@
   <body>
     <header id="edithead">
     <div class="navigation">
-        <a id="welcome" href="pageNine.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a id="welcome" href="final_b.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
         <a href="index.php">Home</a>
         <a href="final_b.php">Product List</a>
         <a href="p11.php">Order List</a>
