@@ -21,7 +21,7 @@ $id=$_POST["id"];
 <body>
     <!-- Navigation for the Backpages Charles 26747310  -->
     <div class="nav_back">
-        <a id="welcome" href="page9.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a id="welcome" href="pageNine.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
         <a href="/index.html">Home</a>
         <a href="/final_b.html">Product List</a>
         <a href="/p11.html">Order List</a>
@@ -32,7 +32,7 @@ $id=$_POST["id"];
     <!--Outter Container for the edit user form  -->
     <section class="outer_edit">
         <!--Inner container for the edit  -->
-        <form id="inner_edit" action="/signIn" method="post">
+        <form id="inner_edit" action="/signIn.php" method="post">
             <h1>Edit User</h1>
             <p>Please fill each given field to edit a user.</p>
             <hr>
