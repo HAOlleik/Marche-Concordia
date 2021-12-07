@@ -1,4 +1,4 @@
-
+<?php session_start(); ?>
 <!doctype html>
 <html>
 <head>
@@ -49,7 +49,7 @@
     <div class="container-other">
         <nav class="navigation-other">
             <ul>
-              <li><a href="category_1.php" class="deals"><?php print "WELCOME " . strtoupper($_SESSION['username']); ?></a></li>
+              <li><a href="category1_final.php" class="deals"><?php print "WELCOME " . strtoupper($_SESSION['username']); ?></a></li>
                 <li>
                     <div class="dropdown">
                         <button class="dropbtn">CATEGORIES</button>
