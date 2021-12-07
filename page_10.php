@@ -32,7 +32,7 @@ $id=$_POST["id"];
     <!--Outter Container for the edit user form  -->
     <section class="outer_edit">
         <!--Inner container for the edit  -->
-        <form id="inner_edit" action="/sign_in">
+        <form id="inner_edit" action="/signIn" method="post">
             <h1>Edit User</h1>
             <p>Please fill each given field to edit a user.</p>
             <hr>
