@@ -17,11 +17,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="index.html"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
+                <a href="index.php"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
            </div>
            <br>
            <div class="store-name">
-            <a href="index.html"> MARCHÉ CONCORDIA</a>
+            <a href="index.php"> MARCHÉ CONCORDIA</a>
             </div>
            
         <nav class="navigation">
@@ -37,8 +37,8 @@
                   width="55"
               /></a>
             </li>
-            <li><a href="signIn.html" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
-            <li><a href="yourCart.html" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
+            <li><a href="signIn.php" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
+            <li><a href="yourCart.php" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
                 
         </ul>
         </nav>
@@ -54,13 +54,13 @@
                     <div class="dropdown">
                         <button class="dropbtn">CATEGORIES</button>
                         <div class="dropdown-content">
-                            <a href="category1_final.html">Fruits and Vegtables</a>
-                            <a href="category2_final.html">Frozen Items</a>
-                            <a href="category3_final.html">Dairy Products</a>
-                            <a href="category4_final.html">Grocery</a>                            </div>
+                            <a href="category1_final.php">Fruits and Vegtables</a>
+                            <a href="category2_final.php">Frozen Items</a>
+                            <a href="category3_final.php">Dairy Products</a>
+                            <a href="category4_final.php">Grocery</a>                            </div>
                     </div>
                 </li>
-                <li><a href="COMING SOON.html" class="deals">DEALS</a></li>            
+                <li><a href="COMING SOON.php" class="deals">DEALS</a></li>            
             </ul>
         </nav>
     </div>
@@ -76,13 +76,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="salt.html"> <img class = "product_img_category" src="images/img_grocery/grocery/salt.jpg" alt = "Salt image"></a>
+                        <a href="salt.php"> <img class = "product_img_category" src="images/img_grocery/grocery/salt.jpg" alt = "Salt image"></a>
                         <p class="company">Windsor / 2 kg</p>
-                        <a href="salt.html"><p class="product">Household salt</p></a>
+                        <a href="salt.php"><p class="product">Household salt</p></a>
                         <p class="price">$2.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -95,13 +95,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="cookie.html"> <img class = "product_img_category" src="images/img_grocery/grocery/cookie.jpg" alt = "Grapes image"></a>
+                        <a href="cookie.php"> <img class = "product_img_category" src="images/img_grocery/grocery/cookie.jpg" alt = "Grapes image"></a>
                         <p class="company">Chips Ahoy / 258 g</p>
-                        <a href="cookie.html"><p class="product">Chips Ahoy Original</p></a>
+                        <a href="cookie.php"><p class="product">Chips Ahoy Original</p></a>
                         <p class="price">$3.50</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -114,13 +114,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="flakes.html"> <img class = "product_img_category" src="images/img_grocery/grocery/flakes.jpg" alt = "Raspberries image"></a>
+                        <a href="flakes.php"> <img class = "product_img_category" src="images/img_grocery/grocery/flakes.jpg" alt = "Raspberries image"></a>
                         <p class="company">Post / 1.4 kg</p>
-                        <a href="flakes.html"><p class="product">Cranberry Almond Crunch</p></a>
+                        <a href="flakes.php"><p class="product">Cranberry Almond Crunch</p></a>
                         <p class="price">$7.00</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -136,13 +136,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="chips.html"> <img class = "product_img_category" src="images/img_grocery/grocery/fritos.jpg" alt = "Onion image"></a>
+                        <a href="chips.php"> <img class = "product_img_category" src="images/img_grocery/grocery/fritos.jpg" alt = "Onion image"></a>
                         <p class="company">Fritos / 340 g</p>
-                        <a href="chips.html"><p class="product">Original Fritos</p></a>
+                        <a href="chips.php"><p class="product">Original Fritos</p></a>
                         <p class="price">$1.20</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -155,13 +155,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="ketchup.html"> <img class = "product_img_category" src="images/img_grocery/grocery/ketchup.jpg" alt = "Tomato image"></a>
+                        <a href="ketchup.php"> <img class = "product_img_category" src="images/img_grocery/grocery/ketchup.jpg" alt = "Tomato image"></a>
                         <p class="company">Heinz / 836 g</p>
-                        <a href="tomato.html"><p class="product">Heinz Tomato Ketchup</p></a>
+                        <a href="tomato.php"><p class="product">Heinz Tomato Ketchup</p></a>
                         <p class="price">$5.00</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -174,13 +174,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="oliveoil.html"> <img class = "product_img_category" src="images/img_grocery/grocery/olive-oil.jpg" alt = "Broccoli image"></a>
+                        <a href="oliveoil.php"> <img class = "product_img_category" src="images/img_grocery/grocery/olive-oil.jpg" alt = "Broccoli image"></a>
                         <p class="company">Maison Orphee / 836 g</p>
-                        <a href="oliveoil.html"><p class="product">Extra Virgin Olive Oil</p></a>
+                        <a href="oliveoil.php"><p class="product">Extra Virgin Olive Oil</p></a>
                         <p class="price">$8.97</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -196,13 +196,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="pasta.html"> <img class = "product_img_category" src="images/img_grocery/grocery/pasta.jpeg" alt = "Iceberg image"></a>
+                        <a href="pasta.php"> <img class = "product_img_category" src="images/img_grocery/grocery/pasta.jpeg" alt = "Iceberg image"></a>
                         <p class="company"> Barilla / 500 g</p>
-                        <a href="pasta.html"><p class="product">Penne Rigate Pasta</p></a>
+                        <a href="pasta.php"><p class="product">Penne Rigate Pasta</p></a>
                         <p class="price">$4.30</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -215,13 +215,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="peanutbutter.html"> <img class = "product_img_category" src="images/img_grocery/grocery/peanut-butter.jpg" alt = "Banana image"></a>
+                        <a href="peanutbutter.php"> <img class = "product_img_category" src="images/img_grocery/grocery/peanut-butter.jpg" alt = "Banana image"></a>
                         <p class="company">Kraft / 1kg</p>
-                        <a href="peanutbutter.html"><p class="product">Peanut Butter</p></a>
+                        <a href="peanutbutter.php"><p class="product">Peanut Butter</p></a>
                         <p class="price">$9.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -234,13 +234,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="ruffles.html"> <img class = "product_img_category" src="images/img_grocery/grocery/ruffles.jpg" alt = "Lime image"></a>
-                        <p class="company"><a href="grapes.html"></a>Ruffles / 200 g</p>
-                        <a href="ruffles.html"><p class="product">All-Dressed Ruffles</p></a>
+                        <a href="ruffles.php"> <img class = "product_img_category" src="images/img_grocery/grocery/ruffles.jpg" alt = "Lime image"></a>
+                        <p class="company"><a href="grapes.php"></a>Ruffles / 200 g</p>
+                        <a href="ruffles.php"><p class="product">All-Dressed Ruffles</p></a>
                         <p class="price">$2.50</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>

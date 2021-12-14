@@ -20,11 +20,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="/index.html"><img src="images/logo.jpg" class="nav-logo-img" alt="Store Logo" height="120"
+                <a href="/index.php"><img src="images/logo.jpg" class="nav-logo-img" alt="Store Logo" height="120"
                         width="120"></a>
             </div>
             <br><br>
-            <a class="store-name" href="/index.html">
+            <a class="store-name" href="/index.php">
                 MARCHÉ CONCORDIA
             </a>
 
@@ -33,9 +33,9 @@
                     <li><a href="https://www.google.com/maps/place/Pavillion+Henry+F.Hall+Bldg,+Boulevard+de+Maisonneuve+O,+Montreal,+QC+H3G+1M8/@45.4973223,-73.5812175,17z/data=!3m1!4b1!4m5!3m4!1s0x4cc91a6a8799deb5:0x1ca01f129dc2ef02!8m2!3d45.4973223!4d-73.5790288"
                             class="location"><img src="images/location.jpg" class="location-img" height="55"
                                 width="55"></a></li>
-                    <li><a href="/signIn.html" class="sign-in"><img src="images/sign-in.png" class="sign-in-img"
+                    <li><a href="/signIn.php" class="sign-in"><img src="images/sign-in.png" class="sign-in-img"
                                 height="55" width="55"></a></a></li>
-                    <li><a href="/yourCart.html" class="cart"><img src="images/cart.png" class="cart-img" height="55"
+                    <li><a href="/yourCart.php" class="cart"><img src="images/cart.png" class="cart-img" height="55"
                                 width="55"></a>
                     </li>
 
@@ -52,14 +52,14 @@
                        <div class="dropdown">
                             <button class="dropbtn">CATEGORIES</button>
                             <div class="dropdown-content">
-                                <a href="/category1_final.html">Fruits and Vegtables</a>
-                                <a href="/category2_final.html">Dairy Products</a>
-                                <a href="/category3_final.html">Frozen Items</a>
-                                <a href="/category4_final.html">Grocery</a>
+                                <a href="/category1_final.php">Fruits and Vegtables</a>
+                                <a href="/category2_final.php">Dairy Products</a>
+                                <a href="/category3_final.php">Frozen Items</a>
+                                <a href="/category4_final.php">Grocery</a>
                             </div>
                         </div>
                     </li>
-                    <li><a href="COMING SOON.html" class="deals">DEALS</a></li>
+                    <li><a href="COMING SOON.php" class="deals">DEALS</a></li>
                 </ul>
             </nav>
         </div>
@@ -74,12 +74,12 @@
             <input id="input" type="password" size="30" name="password" placeholder="Password">
             <a id="forgot" href="http://password_forgot">Forgot password?</a>
             <div>
-                <button id="save"><a href="/final_b.html">Sign in</a></button>
+                <button id="save"><a href="/final_b.php">Sign in</a></button>
             </div>
         </form>
     </section>
         <div>
-        <button id="save"><a href="/signup.html">Create account</a></button>
+        <button id="save"><a href="/signup.php">Create account</a></button>
     </div>
     <!-- Charles Eimer 26747310 section -->
     
@@ -111,7 +111,7 @@
             marcheconcordia@gmail.com
           </div>
         </div>
-        <a href="/Jobs.html">Jobs</a>
+        <a href="/Jobs.php">Jobs</a>
       </div>
     </footer>
 

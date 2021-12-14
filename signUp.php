@@ -24,7 +24,7 @@
    <header>
       <div class="container">
         <div class="nav-logo">
-          <a href="/index.html"
+          <a href="/index.php"
             ><img
               src="images/logo.jpg"
               class="nav-logo-img"
@@ -34,7 +34,7 @@
           /></a>
         </div>
         <br /><br />
-        <a class="store-name" href="/index.html"> MARCHÉ CONCORDIA </a>
+        <a class="store-name" href="/index.php"> MARCHÉ CONCORDIA </a>
 
         <nav class="navigation">
           <ul>
@@ -50,7 +50,7 @@
               /></a>
             </li>
             <li>
-              <a href="/signIn.html" class="sign-in"
+              <a href="/signIn.php" class="sign-in"
                 ><img
                   src="images/sign-in.png"
                   class="sign-in-img"
@@ -59,7 +59,7 @@
               /></a>
             </li>
             <li>
-              <a href="yourCart.html" class="cart"
+              <a href="yourCart.php" class="cart"
                 ><img
                   src="images/cart.png"
                   class="cart-img"
@@ -80,14 +80,14 @@
               <div class="dropdown">
                 <button class="dropbtn">CATEGORIES</button>
                 <div class="dropdown-content">
-                  <a href="/category1_final.html">Fruits and Vegtables</a>
-                  <a href="/category2_final.html">Dairy Products</a>
-                  <a href="/category3_final.html">Frozen Items</a>
-                  <a href="/category4_final.html">Grocery</a>
+                  <a href="/category1_final.php">Fruits and Vegtables</a>
+                  <a href="/category2_final.php">Dairy Products</a>
+                  <a href="/category3_final.php">Frozen Items</a>
+                  <a href="/category4_final.php">Grocery</a>
                 </div>
               </div>
             </li>
-            <li><a href="COMING SOON.html" class="deals">DEALS</a></li>
+            <li><a href="COMING SOON.php" class="deals">DEALS</a></li>
           </ul>
         </nav>
       </div>
@@ -220,7 +220,7 @@
           </div>
         </div>
         <br />
-        <a href="/jobs.html">Jobs</a>
+        <a href="/jobs.php">Jobs</a>
       </div>
     </footer>
     <script

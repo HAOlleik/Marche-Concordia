@@ -17,11 +17,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="index.html"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
+                <a href="index.php"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
            </div>
            <br>
            <div class="store-name">
-            <a href="index.html"> MARCHÉ CONCORDIA</a>
+            <a href="index.php"> MARCHÉ CONCORDIA</a>
             </div>
            
         <nav class="navigation">
@@ -37,8 +37,8 @@
                   width="55"
               /></a>
             </li>
-            <li><a href="signIn.html" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
-            <li><a href="yourCart.html" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
+            <li><a href="signIn.php" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
+            <li><a href="yourCart.php" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
                 
         </ul>
         </nav>
@@ -54,13 +54,13 @@
                     <div class="dropdown">
                         <button class="dropbtn">CATEGORIES</button>
                         <div class="dropdown-content">
-                            <a href="category1_final.html">Fruits and Vegtables</a>
-                            <a href="category2_final.html">Frozen Items</a>
-                            <a href="category3_final.html">Dairy Products</a>
-                            <a href="category4_final.html">Grocery</a>                            </div>
+                            <a href="category1_final.php">Fruits and Vegtables</a>
+                            <a href="category2_final.php">Frozen Items</a>
+                            <a href="category3_final.php">Dairy Products</a>
+                            <a href="category4_final.php">Grocery</a>                            </div>
                     </div>
                 </li>
-                <li><a href="COMING SOON.html" class="deals">DEALS</a></li>            
+                <li><a href="COMING SOON.php" class="deals">DEALS</a></li>            
             </ul>
         </nav>
     </div>
@@ -76,13 +76,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="beefpatty.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/ballpark-beef-patty.jpg" alt = "Beef Patty image"></a>
+                        <a href="beefpatty.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/ballpark-beef-patty.jpg" alt = "Beef Patty image"></a>
                         <p class="company">Ball Park / 510g</p>
-                        <a href="beefpatty.html"><p class="product">Beef Patty</p></a>
+                        <a href="beefpatty.php"><p class="product">Beef Patty</p></a>
                         <p class="price">$8.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -95,13 +95,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="fishsticks.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/fish-sticks.jpeg" alt = "fish-sticks image"></a>
+                        <a href="fishsticks.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/fish-sticks.jpeg" alt = "fish-sticks image"></a>
                         <p class="company">Gorton's / 323g)</p>
-                        <a href="fishsticks.html"><p class="product">Fish Sticks</p></a>
+                        <a href="fishsticks.php"><p class="product">Fish Sticks</p></a>
                         <p class="price">$7.00</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -114,13 +114,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="fries.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/fries.jpeg" alt = "Fries image"></a>
+                        <a href="fries.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/fries.jpeg" alt = "Fries image"></a>
                         <p class="company">McCain / 650g</p>
-                        <a href="fries.html"><p class="product">Fries</p></a>
+                        <a href="fries.php"><p class="product">Fries</p></a>
                         <p class="price">$1.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -136,13 +136,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="frozenfruit.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/frozen-fruits.jpg" alt = "Frozen image"></a>
+                        <a href="frozenfruit.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/frozen-fruits.jpg" alt = "Frozen image"></a>
                         <p class="company">Gourmet Delight / 600g</p>
-                        <a href="frozenfruit.html"><p class="product">Field Berry Mix</p></a>
+                        <a href="frozenfruit.php"><p class="product">Field Berry Mix</p></a>
                         <p class="price">$7.20</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -155,13 +155,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="icecreamsandwich.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/icecream-sandwiches.jpg" alt = "Ice cream Sandwich image"></a>
+                        <a href="icecreamsandwich.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/icecream-sandwiches.jpg" alt = "Ice cream Sandwich image"></a>
                         <p class="company">Scotsburn / 12 x 110mL</p>
-                        <a href="icecreamsandwich.html"><p class="product">Ice Cream Sandwich</p></a>
+                        <a href="icecreamsandwich.php"><p class="product">Ice Cream Sandwich</p></a>
                         <p class="price">$5.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -174,13 +174,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="mixedvegetables.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/mixed-vegetables.jpg" alt = "Mixed vegtables image"></a>
+                        <a href="mixedvegetables.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/mixed-vegetables.jpg" alt = "Mixed vegtables image"></a>
                         <p class="company">McCain / 500g</p>
-                        <a href="mixedvegetables.html"><p class="product">Mixed Vegtable</p></a>
+                        <a href="mixedvegetables.php"><p class="product">Mixed Vegtable</p></a>
                         <p class="price">$4.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -196,13 +196,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="nuggets.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/nuggets.jpg" alt = "Nuggest image"></a>
+                        <a href="nuggets.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/nuggets.jpg" alt = "Nuggest image"></a>
                         <p class="company">Banquet / 680g</p>
-                        <a href="nuggets.html"><p class="product">Chicken Nuggets</p></a>
+                        <a href="nuggets.php"><p class="product">Chicken Nuggets</p></a>
                         <p class="price">$7.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -215,13 +215,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="pizza.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/Pizza.jpg" alt = "pizza image"></a>
+                        <a href="pizza.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/Pizza.jpg" alt = "pizza image"></a>
                         <p class="company">Ristorante / 355g</p>
-                        <a href="pizza.html"><p class="product">Hawaii Pizza</p></a>
+                        <a href="pizza.php"><p class="product">Hawaii Pizza</p></a>
                         <p class="price">$9.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -234,13 +234,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="icecream.html"> <img class = "product_img_category" src="images/img_frozen/Frozen/prestige-ice-cream.jpg" alt = "Pristige IceCream image"></a>
-                        <p class="company"><a href="icecream.html"></a>Prestige / 1.4L</p>
-                        <a href="icecream.html"><p class="product">Real Premium Ice Cream</p></a>
+                        <a href="icecream.php"> <img class = "product_img_category" src="images/img_frozen/Frozen/prestige-ice-cream.jpg" alt = "Pristige IceCream image"></a>
+                        <p class="company"><a href="icecream.php"></a>Prestige / 1.4L</p>
+                        <a href="icecream.php"><p class="product">Real Premium Ice Cream</p></a>
                         <p class="price">$5.99</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>

@@ -16,11 +16,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="index.html"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
+                <a href="index.php"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
            </div>
            <br>
            <div class="store-name">
-            <a href="index.html"> MARCHÉ CONCORDIA</a>
+            <a href="index.php"> MARCHÉ CONCORDIA</a>
             </div>
            
         <nav class="navigation">
@@ -36,8 +36,8 @@
                   width="55"
               /></a>
             </li>
-            <li><a href="signIn.html" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
-            <li><a href="yourCart.html" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
+            <li><a href="signIn.php" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
+            <li><a href="yourCart.php" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
                 
         </ul>
         </nav>
@@ -55,14 +55,14 @@
                         <div class="dropdown">
                             <button class="dropbtn">CATEGORIES</button>
                             <div class="dropdown-content">
-                              <a href="category1_final.html">Fruits and Vegtables</a>
-                              <a href="category3_final.html">Dairy Products</a>
-                              <a href="category2_final.html">Frozen Items</a>
-                              <a href="category4_final.html">Grocery</a>
+                              <a href="category1_final.php">Fruits and Vegtables</a>
+                              <a href="category3_final.php">Dairy Products</a>
+                              <a href="category2_final.php">Frozen Items</a>
+                              <a href="category4_final.php">Grocery</a>
                             </div>
                           </div>
                     </li>
-                    <li><a href="COMING SOON.html" class="deals">DEALS</a></li>
+                    <li><a href="COMING SOON.php" class="deals">DEALS</a></li>
                     <!-- <li><a href="" class="locations">OTHER LOCATIONS</a></li> -->
                         
                 </ul>
@@ -114,7 +114,7 @@
 
                        <div class = "button">
                         <br><br>
-                        <a href="yourCart.html" class="btn primary">ADD TO CART</a>
+                        <a href="yourCart.php" class="btn primary">ADD TO CART</a>
                       <br><br>
                               </div>
             

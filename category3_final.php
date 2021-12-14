@@ -17,11 +17,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="index.html"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
+                <a href="index.php"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
            </div>
            <br>
            <div class="store-name">
-            <a href="index.html"> MARCHÉ CONCORDIA</a>
+            <a href="index.php"> MARCHÉ CONCORDIA</a>
             </div>
            
         <nav class="navigation">
@@ -37,8 +37,8 @@
                   width="55"
               /></a>
             </li>
-            <li><a href="signIn.html" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
-            <li><a href="yourCart.html" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
+            <li><a href="signIn.php" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
+            <li><a href="yourCart.php" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
                 
         </ul>
         </nav>
@@ -54,13 +54,13 @@
                     <div class="dropdown">
                         <button class="dropbtn">CATEGORIES</button>
                         <div class="dropdown-content">
-                            <a href="category1_final.html">Fruits and Vegtables</a>
-                            <a href="category2_final.html">Frozen Items</a>
-                            <a href="category3_final.html">Dairy Products</a>
-                            <a href="category4_final.html">Grocery</a>                            </div>
+                            <a href="category1_final.php">Fruits and Vegtables</a>
+                            <a href="category2_final.php">Frozen Items</a>
+                            <a href="category3_final.php">Dairy Products</a>
+                            <a href="category4_final.php">Grocery</a>                            </div>
                     </div>
                 </li>
-                <li><a href="COMING SOON.html" class="deals">DEALS</a></li>            
+                <li><a href="COMING SOON.php" class="deals">DEALS</a></li>            
             </ul>
         </nav>
     </div>
@@ -76,13 +76,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="butter.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/butter.jpg" alt = "butter image"></a>
+                        <a href="butter.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/butter.jpg" alt = "butter image"></a>
                         <p class="company">Lactania / 454g</p>
-                        <a href="butter.html"><p class="product">Semi Salted Butter</p></a>
+                        <a href="butter.php"><p class="product">Semi Salted Butter</p></a>
                         <p class="price">$6.97</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -95,13 +95,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="cheese.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/cheese.jpg" alt = "Cheese image"></a>
+                        <a href="cheese.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/cheese.jpg" alt = "Cheese image"></a>
                         <p class="company">Moon Cheese / 56.6g</p>
-                        <a href="cheese.html"><p class="product">Cheese Bites</p></a>
+                        <a href="cheese.php"><p class="product">Cheese Bites</p></a>
                         <p class="price">$10.00</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -114,13 +114,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="eggs.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/eggs.jpg" alt = "eggs image"></a>
+                        <a href="eggs.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/eggs.jpg" alt = "eggs image"></a>
                         <p class="company">Burnbrae Farms / 18 ea</p>
-                        <a href="eggs.html"><p class="product">Eggs-18 Extra Large Eggs</p></a>
+                        <a href="eggs.php"><p class="product">Eggs-18 Extra Large Eggs</p></a>
                         <p class="price">$7.00</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -136,13 +136,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="homomilk.html"> <img class = "product_img_category" src="\dairy\homo-milk.jpg" alt = "homomilk image"></a>
+                        <a href="homomilk.php"> <img class = "product_img_category" src="\dairy\homo-milk.jpg" alt = "homomilk image"></a>
                         <p class="company">Beatrice / 2L</p>
-                        <a href="homomilk.html"><p class="product">Milk 3.25%</p></a>
+                        <a href="homomilk.php"><p class="product">Milk 3.25%</p></a>
                         <p class="price">$3.75</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -155,13 +155,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="nateral.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/Nateral.jpg" alt = "Tomato image"></a>
+                        <a href="nateral.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/Nateral.jpg" alt = "Tomato image"></a>
                         <p class="company">Nateral / 2L</p>
-                        <a href="nateral.html"><p class="product">Homogenized Milk</p></a>
+                        <a href="nateral.php"><p class="product">Homogenized Milk</p></a>
                         <p class="price">$7.85</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -174,13 +174,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="organiceggs.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/organic-eggs.jpg" alt = "Organic Eggs image"></a>
+                        <a href="organiceggs.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/organic-eggs.jpg" alt = "Organic Eggs image"></a>
                         <p class="company">Organic Biologique / 12ea</p>
-                        <a href="organiceggs.html"><p class="product">Eggs 12-Large Organic Eggs</p></a>
+                        <a href="organiceggs.php"><p class="product">Eggs 12-Large Organic Eggs</p></a>
                         <p class="price">$4.50</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -196,13 +196,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="organiceggs.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/organic-milk.jpg" alt = "Organic Milk image"></a>
+                        <a href="organiceggs.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/organic-milk.jpg" alt = "Organic Milk image"></a>
                         <p class="company">Organic Meadow / 1L</p>
-                        <a href="organiceggs.html"><p class="product">Organic Whole Milk</p></a>
+                        <a href="organiceggs.php"><p class="product">Organic Whole Milk</p></a>
                         <p class="price">$8.00</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -215,13 +215,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="strawberryyougurt.html"> <img class = "product_img_category" src="images/img_dairy_products/dairy/strawberry-yogurt.jpg" alt = "strawberry-yogurt image"></a>
+                        <a href="strawberryyougurt.php"> <img class = "product_img_category" src="images/img_dairy_products/dairy/strawberry-yogurt.jpg" alt = "strawberry-yogurt image"></a>
                         <p class="company">Activia / 4 x 100g</p>
-                        <a href="strawberryyougurt.html"><p class="product">Strawberry Yogurt</p></a>
+                        <a href="strawberryyougurt.php"><p class="product">Strawberry Yogurt</p></a>
                         <p class="price">$5.99</p>
                             <div class = "button">
                             <br><br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -234,13 +234,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="yogurt.html".html> <img class = "product_img_category" src="images/img_dairy_products/dairy/yogurt.jpg" alt = "Yogurt image"></a>
-                        <p class="company"><a href="yogurt.html"></a>Astro / 750g</p>
-                        <a href="yogurt.html"><p class="product">Original Yogurt</p></a>
+                        <a href="yogurt.php".php> <img class = "product_img_category" src="images/img_dairy_products/dairy/yogurt.jpg" alt = "Yogurt image"></a>
+                        <p class="company"><a href="yogurt.php"></a>Astro / 750g</p>
+                        <a href="yogurt.php"><p class="product">Original Yogurt</p></a>
                         <p class="price">$2.99</p>
                             <div class = "button">
                             
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             
                             </div>
                     </div>

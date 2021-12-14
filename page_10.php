@@ -22,11 +22,11 @@ $id=$_POST["id"];
     <!-- Navigation for the Backpages Charles 26747310  -->
     <div class="nav_back">
         <a id="welcome" href="pageNine.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
-        <a href="/index.html">Home</a>
-        <a href="/final_b.html">Product List</a>
-        <a href="/p11.html">Order List</a>
-        <a href="pagenine.html">User List</a>
-        <a href="/index.html">Sign out</a>
+        <a href="/index.php">Home</a>
+        <a href="/final_b.php">Product List</a>
+        <a href="/p11.php">Order List</a>
+        <a href="pagenine.php">User List</a>
+        <a href="/index.php">Sign out</a>
     </div>
 
     <!--Outter Container for the edit user form  -->

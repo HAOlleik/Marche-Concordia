@@ -18,11 +18,11 @@
         <a id="welcome" href="page9.php">
             <?php print "Welcome " . $_SESSION['username']; ?>
         </a>
-        <a href="index.html">Home</a>
-        <a href="final_b.html">Product List</a>
-        <a href="p11.html">Order List</a>
-        <a href="pagenine.html">User List</a>
-        <a href="index.html">Sign out</a>
+        <a href="index.php">Home</a>
+        <a href="final_b.php">Product List</a>
+        <a href="p11.php">Order List</a>
+        <a href="pagenine.php">User List</a>
+        <a href="index.php">Sign out</a>
     </div>
     <table class="table table-striped">
         <thead>
@@ -44,8 +44,8 @@
                 <td>00001</td>
                 <td>
                     <div class="button">
-                        <a href="/page_10.html" class="btn primary">DELETE</a>
-                        <a href="/page_10.html" class="btn secondary">&nbsp&nbsp&nbspEDIT&nbsp&nbsp&nbsp</a>
+                        <a href="/page_10.php" class="btn primary">DELETE</a>
+                        <a href="/page_10.php" class="btn secondary">&nbsp&nbsp&nbspEDIT&nbsp&nbsp&nbsp</a>
                     </div>
                 </td>
             </tr>
@@ -57,8 +57,8 @@
                 <td>00002</td>
                 <td>
                     <div class="button">
-                        <a href="/page_10.html" class="btn primary">DELETE</a>
-                        <a href="/page_10.html" class="btn secondary">&nbsp&nbsp&nbspEDIT&nbsp&nbsp&nbsp</a>
+                        <a href="/page_10.php" class="btn primary">DELETE</a>
+                        <a href="/page_10.php" class="btn secondary">&nbsp&nbsp&nbspEDIT&nbsp&nbsp&nbsp</a>
                     </div>
                 </td>
             </tr>
@@ -70,15 +70,15 @@
                 <td>00003</td>
                 <td>
                     <div class="button">
-                        <a href="/page_10.html" class="btn primary">DELETE</a>
-                        <a href="/page_10.html" class="btn secondary">&nbsp&nbsp&nbspEDIT&nbsp&nbsp&nbsp</a>
+                        <a href="/page_10.php" class="btn primary">DELETE</a>
+                        <a href="/page_10.php" class="btn secondary">&nbsp&nbsp&nbspEDIT&nbsp&nbsp&nbsp</a>
                     </div>
                 </td>
             </tr>
         </tbody>
     </table>
     <div class="d-flex justify-content-center">
-        <a class="btn btn-primary btn-lg" href="page_10.html">Add</a>
+        <a class="btn btn-primary btn-lg" href="page_10.php">Add</a>
     </div>
     <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">

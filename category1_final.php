@@ -17,11 +17,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="index.html"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
+                <a href="index.php"><img src="logo.jpg" class="nav-logo-img" alt="Store Logo" height="120" width="120"></a>
            </div>
            <br>
            <div class="store-name">
-            <a href="index.html"> MARCHÉ CONCORDIA</a>
+            <a href="index.php"> MARCHÉ CONCORDIA</a>
             </div>
            
         <nav class="navigation">
@@ -37,8 +37,8 @@
                   width="55"
               /></a>
             </li>
-            <li><a href="signIn.html" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
-            <li><a href="yourCart.html" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
+            <li><a href="signIn.php" class="sign-in" ><img src="sign-in.png" class="sign-in-img" height="55" width="55"></a></a></li>
+            <li><a href="yourCart.php" class="cart" ><img src="cart.png" class="cart-img" height="55" width="55"></a></li>
                 
         </ul>
         </nav>
@@ -54,13 +54,13 @@
                     <div class="dropdown">
                         <button class="dropbtn">CATEGORIES</button>
                         <div class="dropdown-content">
-                            <a href="category1_final.html">Fruits and Vegtables</a>
-                            <a href="category2_final.html">Frozen Items</a>
-                            <a href="category3_final.html">Dairy Products</a>
-                            <a href="category4_final.html">Grocery</a>                            </div>
+                            <a href="category1_final.php">Fruits and Vegtables</a>
+                            <a href="category2_final.php">Frozen Items</a>
+                            <a href="category3_final.php">Dairy Products</a>
+                            <a href="category4_final.php">Grocery</a>                            </div>
                     </div>
                 </li>
-                <li><a href="COMING SOON.html" class="deals">DEALS</a></li>            
+                <li><a href="COMING SOON.php" class="deals">DEALS</a></li>            
             </ul>
         </nav>
     </div>
@@ -76,13 +76,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="Apple.html"> <img class = "product_img_category" src="images/img_veg_fruits/apples.png" alt = "Apple image"></a>
+                        <a href="Apple.php"> <img class = "product_img_category" src="images/img_veg_fruits/apples.png" alt = "Apple image"></a>
                         <p class="company">Local / 1 fruit (approx. 180 g)</p>
-                        <a href="Apple.html"><p class="product">Apples</p></a>
+                        <a href="Apple.php"><p class="product">Apples</p></a>
                         <p class="price">approx. $1.38 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -95,13 +95,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="grapes.html"> <img class = "product_img_category" src="images/img_veg_fruits/grapes.png" alt = "Grapes image"></a>
+                        <a href="grapes.php"> <img class = "product_img_category" src="images/img_veg_fruits/grapes.png" alt = "Grapes image"></a>
                         <p class="company">Local / 1 bag (approx. 460 g)</p>
-                        <a href="grapes.html"><p class="product">Grapes</p></a>
+                        <a href="grapes.php"><p class="product">Grapes</p></a>
                         <p class="price">approx. $3.54 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -114,13 +114,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="raspberries.html"> <img class = "product_img_category" src="images/img_veg_fruits/raspberries.png" alt = "Raspberries image"></a>
+                        <a href="raspberries.php"> <img class = "product_img_category" src="images/img_veg_fruits/raspberries.png" alt = "Raspberries image"></a>
                         <p class="company">Local / 170 g</p>
-                        <a href="raspberries.html"><p class="product">Raspberries</p></a>
+                        <a href="raspberries.php"><p class="product">Raspberries</p></a>
                         <p class="price">approx. $3.00 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -136,13 +136,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="onion.html"> <img class = "product_img_category" src="images/img_veg_fruits/onion.png" alt = "Onion image"></a>
+                        <a href="onion.php"> <img class = "product_img_category" src="images/img_veg_fruits/onion.png" alt = "Onion image"></a>
                         <p class="company">Local</p>
-                        <a href="onion.html"><p class="product">Onion</p></a>
+                        <a href="onion.php"><p class="product">Onion</p></a>
                         <p class="price">approx. $4.00 / bag</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -155,13 +155,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="tomato.html"> <img class = "product_img_category" src="images/img_veg_fruits/tomato.png" alt = "Tomato image"></a>
+                        <a href="tomato.php"> <img class = "product_img_category" src="images/img_veg_fruits/tomato.png" alt = "Tomato image"></a>
                         <p class="company">Local</p>
-                        <a href="tomato.html"><p class="product">Tomato</p></a>
+                        <a href="tomato.php"><p class="product">Tomato</p></a>
                         <p class="price">approx. $1.15 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -174,13 +174,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="broccoli.html"> <img class = "product_img_category" src="images/img_veg_fruits/broccoli.png" alt = "Broccoli image"></a>
+                        <a href="broccoli.php"> <img class = "product_img_category" src="images/img_veg_fruits/broccoli.png" alt = "Broccoli image"></a>
                         <p class="company">Local</p>
-                        <a href="broccoli.html"><p class="product">Broccoli</p></a>
+                        <a href="broccoli.php"><p class="product">Broccoli</p></a>
                         <p class="price">approx. $1.79 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -196,13 +196,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="iceberg.html"> <img class = "product_img_category" src="images/img_veg_fruits/iceberg.png" alt = "Iceberg image"></a>
+                        <a href="iceberg.php"> <img class = "product_img_category" src="images/img_veg_fruits/iceberg.png" alt = "Iceberg image"></a>
                         <p class="company">Local</p>
-                        <a href="iceberg.html"><p class="product">Iceberg</p></a>
+                        <a href="iceberg.php"><p class="product">Iceberg</p></a>
                         <p class="price">approx. $1.38 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -215,13 +215,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="Banana.html"> <img class = "product_img_category" src="images/img_veg_fruits/banana.png" alt = "Banana image"></a>
+                        <a href="Banana.php"> <img class = "product_img_category" src="images/img_veg_fruits/banana.png" alt = "Banana image"></a>
                         <p class="company">Local</p>
-                        <a href="Banana.html"><p class="product">Banana</p></a>
+                        <a href="Banana.php"><p class="product">Banana</p></a>
                         <p class="price">approx. $0.49 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>
@@ -234,13 +234,13 @@
                 <div class="product_info_category">
                     <div class="d-flex flex-column">
 
-                        <a href="lime.html"> <img class = "product_img_category" src="images/img_veg_fruits/lime.png" alt = "Lime image"></a>
-                        <p class="company"><a href="grapes.html"></a>Local</p>
-                        <a href="lime.html"><p class="product">Lime</p></a>
+                        <a href="lime.php"> <img class = "product_img_category" src="images/img_veg_fruits/lime.png" alt = "Lime image"></a>
+                        <p class="company"><a href="grapes.php"></a>Local</p>
+                        <a href="lime.php"><p class="product">Lime</p></a>
                         <p class="price">approx. $0.55 / unit</p>
                             <div class = "button">
                             <br><br>
-                            <center><a href="yourCart.html" class="btn primary">ADD TO CART</a></center>
+                            <center><a href="yourCart.php" class="btn primary">ADD TO CART</a></center>
                             <br><br>
                             </div>
                     </div>

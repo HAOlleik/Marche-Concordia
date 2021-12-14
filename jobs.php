@@ -17,11 +17,11 @@
     <header>
         <div class="container">
             <div class="nav-logo">
-                <a href="/index.html"><img src="images/logo.jpg" class="nav-logo-img" alt="Store Logo" height="120"
+                <a href="/index.php"><img src="images/logo.jpg" class="nav-logo-img" alt="Store Logo" height="120"
                         width="120" /></a>
             </div>
             <br /><br />
-            <a class="store-name" href="/index.html">
+            <a class="store-name" href="/index.php">
                 MARCHÉ
                 <br />
                 CONCORDIA
@@ -35,11 +35,11 @@
                                 width="55" /></a>
                     </li>
                     <li>
-                        <a href="/signIn.html" class="sign-in"><img src="images/sign-in.png" class="sign-in-img"
+                        <a href="/signIn.php" class="sign-in"><img src="images/sign-in.png" class="sign-in-img"
                                 height="55" width="55" /></a>
                     </li>
                     <li>
-                        <a href="yourCart.html" class="cart"><img src="images/cart.png" class="cart-img" height="55"
+                        <a href="yourCart.php" class="cart"><img src="images/cart.png" class="cart-img" height="55"
                                 width="55" /></a>
                     </li>
                 </ul>
@@ -75,7 +75,7 @@
         <div class="card-body">
             <h5 class="card-title">Available</h5>
             <p class="card-text">No more available positions. Please check later!</p>
-            <a href="/index.html" class="btn btn-primary">Home Page</a>
+            <a href="/index.php" class="btn btn-primary">Home Page</a>
         </div>
         <div class="card-footer text-muted">
             2 days ago
