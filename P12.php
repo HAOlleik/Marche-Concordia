@@ -1,3 +1,6 @@
+<!-- Completed Charles  -->
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -35,11 +38,11 @@
   <body>
     <header id="edithead">
     <div class="navigation">
-        <a id="welcome" href="page9.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a id="welcome" href="final_b.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
         <a href="index.php">Home</a>
         <a href="final_b.php">Product List</a>
         <a href="p11.php">Order List</a>
-        <a href="pagenine.php">User List</a>
+        <a href="pageNine.php">User List</a>
         <a href="index.php">Sign out</a>
     </div>
     </header>

@@ -1,4 +1,5 @@
 <!--Charles Eimer 26747310 Edit product page   -->
+<?php session_start(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -14,7 +15,7 @@
 <body>
     <!-- Navigation for the Backpages Charles 26747310  -->
     <div class="nav_back">
-        <a id="welcome" href="page9.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
+        <a id="welcome" href="final_b.php"><?php print "Welcome " . $_SESSION['username']; ?></a>
         <a href="/index.php">Home</a>
         <a href="/final_b.php">Product List</a>
         <a href="/p11.php">Order List</a>

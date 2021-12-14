@@ -1,7 +1,4 @@
-
-<!doctype html>
-<html>
-<head>
+<?php session_start(); ?>
 <!-- Frozen Items catergory page-->
     
     <meta charset="utf-8"> 
@@ -49,7 +46,7 @@
     <div class="container-other">
         <nav class="navigation-other">
             <ul>
-              <li><a href="category_1.php" class="deals"><?php print "WELCOME " . strtoupper($_SESSION['username']); ?></a></li>
+              <li><a href="category1_final.php" class="deals"><?php print "WELCOME " . strtoupper($_SESSION['username']); ?></a></li>
                 <li>
                     <div class="dropdown">
                         <button class="dropbtn">CATEGORIES</button>
