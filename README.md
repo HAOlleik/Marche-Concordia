@@ -32,4 +32,3 @@ The website is designed for consumers to check the prices and be able to buy onl
 
 ### Back-End
 * PHP
-* MongoDB
